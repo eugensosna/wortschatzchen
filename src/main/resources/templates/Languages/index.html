@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index</title>
+<!-- Bootstrap CSS -->
+<link
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	rel="stylesheet">
+</head>
+
+<body>
+<div th:insert="~{header :: navMenu}"></div>
+	<div class="container my-3">
+		<h1 class="text-center mb-3">Languages</h1>
+		<a class="btn btn-primary" href="/languages/create">Create language </a>
+	</div>
+	<div class="container">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th scope="col">id</th>
+					<th scope="col">name</th>
+					<th scope="col">shortName</th>
+					<th >Action</th>
+
+				</tr>
+
+			</thead>
+			<tbody>
+				<tr th:each="language : ${languages}">
+					<td th:text="${language.id}" scope="row"></td>
+					<td th:text="${language.name}"></td>
+					<td th:text="${language.shortName}"></td>
+					<td >
+					<a class = "btn btn-primary btn-sm" th:href="@{languages/edit(id = ${language.id})}">Edit</a> 
+					<a class = "btn btn-danger btn-sm" th:href="@{languages/delete(id = ${language.id})}"
+					onclick="return confirm('Are you sure?')" >Delete</a>
+					</td>
+			</tbody>
+
+		</table>
+	</div>
+
+
+
+
+
+	<!-- Bootstrap JS and dependencies -->
+	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> -->
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+<div th:insert="~{header :: bootstrap}"></div>
+</body>
+
+</html>

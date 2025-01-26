@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+ <div th:fragment="navMenu">
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<header>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/languages">Languages</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/words">Words</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="/subtitlefiles">Subtitlefiles</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+</header>
+</div>
+
+    <div class="container my-3">
+        <h1 class="text-center mb-3">Welcome</h1>
+        <div class="list-group">
+        <a class="btn btn-primary" href="/languages">Languages </a>
+        <a class="btn btn" href="/words">Words </a>
+        <a class="btn btn" href="/subtitlefiles">SubtitleFiles </a>
+        </div>
+      
+
+
+<div th:fragment="bootstrap">
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+                </div>
+
+</body>
+
+</html>

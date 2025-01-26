@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index</title>
+<!-- Bootstrap CSS -->
+<link
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	rel="stylesheet">
+</head>
+
+<body>
+<div th:insert="~{header :: navMenu}"></div>
+	<div class="container my-1">
+		<div class="col">
+			<h2 class="text-center mb-5"
+				th:text="${editMode.name == 'CREATE'} ? 'New ' : 'Update'">></h2>
+			<form method="post" action="save" th:object="${item}">
+				<label>ID</label> <input  readonly  class="form-control"
+					th:field="${item.id}">
+				<label>Name</label> <input class="form-control"
+					th:field="${item.name}"> <label>shortName</label> <input
+					class="form-control" th:field="${item.shortName}"> 
+
+
+				<div class="row">
+					<button class="btn btn-primary" type="submit">Submit</button>
+					<a class="btn btn-outline-primary" href="/languages">Cancel</a>
+				</div>
+
+			</form>
+
+		</div>
+
+
+			<div th:insert="~{header :: bootstrap}"></div>
+</body>
+
+</html>
