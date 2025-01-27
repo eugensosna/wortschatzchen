@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import ua.sosna.wortschatz.wortschatztchen.domain.Language;
 import ua.sosna.wortschatz.wortschatztchen.domain.Word;
 import ua.sosna.wortschatz.wortschatztchen.repository.WordRepo;
 import ua.sosna.wortschatz.wortschatztchen.utils.EditMode;
@@ -69,7 +68,6 @@ public class WordMvc {
 	@PostMapping("/save")
 	public String saveUpdateLanguage(@ModelAttribute Word item, Model model) {
 		var savedItem = repo.save(item);
-		var editMode = model.getAttribute("editMode");
 		// if(editMode == EditMode.CREATE) {
 		model.addAttribute("currentID", savedItem.getId());
 		return "redirect:/words";

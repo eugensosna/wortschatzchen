@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SubtitleFiles</title>
+
+</head>
+
+<body>
+<div th:insert="~{header :: navMenu}"></div>
+
+	<div class="container my-3">
+		<h1 class="text-center mb-3">SubtitleFiles</h1>
+		<a class="btn btn-primary" href="/subtitlefiles/create">Create </a>
+	</div>
+	<div class="container">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th scope="col">id</th>
+					<th scope="col">name</th>
+					<th scope="col">file</th>
+					
+					<!-- <th scope="col">important</th>
+					<th scope="col">baseForm</th>
+					<th scope="col">kindOfWord</th> -->
+					<th >Action</th>
+
+				</tr>
+
+			</thead>
+			<tbody>
+				<tr th:each="item : ${items}">
+					<td th:text="${item.id}" scope="row"></td>
+					<td th:text="${item.name}"></td>
+					<td th:text="${item.originalFilename}"></td>
+					<!-- <td th:text="${item.important}"></td>
+					<td th:text="${item.kindOfWord}"></td>
+					<td th:text="${item.baseForm}"></td> -->
+					<td >
+					<a class = "btn " th:href="@{'subtitlefiles/files/' + ${item.originalFilename}}">View</a>
+					<a class = "btn btn-primary btn-sm" th:href="@{subtitlefiles/file(id = ${item.id})}">View</a>
+					<a class = "btn btn-primary btn-sm" th:href="@{subtitlefiles/edit(id = ${item.id})}">Edit</a> 
+					<a class = "btn btn-danger btn-sm" th:href="@{subtitlefiles/delete(id = ${item.id})}"
+					onclick="return confirm('Are you sure?')" >Delete</a>
+					</td>
+			</tbody>
+
+		</table>
+	</div>
+
+
+
+
+
+	<!-- Bootstrap JS and dependencies -->
+	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> -->
+
+<div th:insert="~{header :: bootstrap}"></div>
+</body>
+
+</html>

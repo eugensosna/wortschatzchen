@@ -48,6 +48,7 @@ public class Word implements Serializable {
     @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
     @JsonIgnoreProperties(value = { "baseLang", "baseWord" }, allowSetters = true)
     private Set<Synonyms> synonyms = new HashSet<>();
+    
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JsonIgnoreProperties(value = { "subtitleFiles", "words", "synonyms" }, allowSetters = true)
@@ -147,6 +148,7 @@ public class Word implements Serializable {
     }
 
     public Set<Synonyms> getSynonyms() {
+    	
         return this.synonyms;
     }
 

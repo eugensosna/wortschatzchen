@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import java.io.Serializable;
 import java.time.Instant;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -27,8 +28,23 @@ public class SubtitleFile implements Serializable {
     @SequenceGenerator(name = "sequenceGenerator")
     @Column(name = "id")
     private Long id;
+    
+    @Column(name = "name")
+    private String name;
 
-    @NonNull
+    public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+    public SubtitleFile name(String name) {
+        this.setName(name);
+        return this;
+    }
+
+	@NonNull
     @Column(name = "filename", nullable = false)
     private String filename;
 
@@ -246,5 +262,12 @@ public class SubtitleFile implements Serializable {
             ", contentType='" + getContentType() + "'" +
             ", uploadDate='" + getUploadDate() + "'" +
             "}";
+    }
+    
+    @PrePersist
+    public void PreSave() {
+    	if (this.uploadDate==null) {
+    		this.uploadDate = Instant.now();
+    	}
     }
 }
