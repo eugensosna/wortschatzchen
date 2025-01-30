@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Words</title>
+<title>Synonyms</title>
 
 </head>
 
@@ -12,8 +12,8 @@
 <div th:insert="~{header :: navMenu}"></div>
 
 	<div class="container my-3">
-		<h1 class="text-center mb-3">Words</h1>
-		<a class="btn btn-primary" href="/words/create">Create </a>
+		<h1 class="text-center mb-3" th:text="'Synonyms for '+${baseWord.name}">Synonyms</h1>
+		<a class="btn btn-primary" th:href="@{/synonyms/}+${baseWord.id}+'/create'">Create </a>
 	</div>
 	<div class="container">
 		<table class="table table-bordered">
@@ -21,9 +21,8 @@
 				<tr>
 					<th scope="col">id</th>
 					<th scope="col">name</th>
-					<th scope="col">important</th>
-					<th scope="col">baseForm</th>
-					<th scope="col">kindOfWord</th>
+					<th scope="col">baseWord</th>
+					<th scope="col">baseLang</th>
 					<th >Action</th>
 
 				</tr>
@@ -33,14 +32,14 @@
 				<tr th:each="item : ${items}">
 					<td th:text="${item.id}" scope="row"></td>
 					<td th:text="${item.name}"></td>
-					<td th:text="${item.important}"></td>
-					<td th:text="${item.kindOfWord}"></td>
-					<td th:text="${item.baseForm}"></td>
+					<td th:text="${item.baseWord.name}"></td>
+					<td th:text="${item.baseLang}"></td>
+					
 					<td >
-					<a class = "btn btn-primary btn-sm" th:href="@{words/edit(id = ${item.id})}">Edit</a> 
-					<a class = "btn btn-danger btn-sm" th:href="@{words/delete(id = ${item.id})}"
+					<a class = "btn btn-primary btn-sm" th:href="@{/synonyms/edit(id = ${item.id})}">Edit</a> 
+					<a class = "btn btn-danger btn-sm" th:href="@{/synonyms/delete(id = ${item.id})}"
 					onclick="return confirm('Are you sure?')" >Delete</a>
-					<a class = "btn btn-danger btn-sm" th:href="@{synonyms/}+${item.id}">Synonyms</a>
+					<!-- <a class = "btn btn-danger btn-sm" th:href="@{synonyms/(wordId = ${item.id})}">Synonyms</a> -->
 					</td>
 			</tbody>
 

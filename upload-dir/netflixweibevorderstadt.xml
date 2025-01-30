@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/imsc1.1/text" xmlns="http://www.w3.org/ns/ttml" xmlns:nttm="http://www.netflix.com/ns/ttml#metadata" xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:xml="http://www.w3.org/XML/1998/namespace" ttp:tickRate="10000000" ttp:timeBase="media" xml:lang="de">
+<head>
+<metadata nttm:schemaVersion="0" nttm:textType="CC" nttm:uuid="f83ad65e-5204-4e74-9312-e4153f467ae4"/>
+<styling>
+<initial tts:backgroundColor="transparent" tts:color="white" tts:displayAlign="after" tts:extent="80.000% 80.000%" tts:opacity="1.000" tts:origin="10.000% 10.000%" tts:showBackground="whenActive" tts:textAlign="center" tts:textOutline="black 0.300rh" tts:writingMode="lrtb"/>
+<style xml:id="style1" tts:fontStyle="italic"/>
+</styling>
+<layout>
+<region xml:id="region0" tts:displayAlign="after" tts:extent="80.000% 40.000%" tts:origin="10.000% 50.000%"/>
+<region xml:id="region1" tts:displayAlign="before" tts:extent="80.000% 40.000%" tts:origin="10.000% 10.000%"/>
+</layout>
+</head>
+<body>
+<div>
+<p xml:id="subtitle1" begin="60400000t" end="68800000t" region="region0">[Glocke ertönt]</p>
+<p xml:id="subtitle2" begin="69600000t" end="81199999t" region="region0">-[Sonia] Ist er da?<br/>-Ja.</p>
+<p xml:id="subtitle3" begin="82000000t" end="96000000t" region="region0">Könnten wir vielleicht<br/>ein bisschen turteln?</p>
+<p xml:id="subtitle4" begin="96800000t" end="111200000t" region="region0">Wieso? Kommt eine von deinen Freundinnen?</p>
+<p xml:id="subtitle5" begin="112000000t" end="136800000t" region="region0">Eher für ihn. Ich würd‘ ihn gern<br/>ein bissl herausfordern.</p>
+<p xml:id="subtitle6" begin="137600000t" end="157200000t" region="region0">Er wollte diese Scheiße,<br/>jetzt kann er sie haben.</p>
+<p xml:id="subtitle7" begin="158000000t" end="168400000t" region="region0">Scheiße?</p>
+<p xml:id="subtitle8" begin="169200000t" end="197600000t" region="region0">Die fragt sie aus, löchert sie.<br/>Sieht man ja.</p>
+<p xml:id="subtitle9" begin="198400000t" end="212400000t" region="region0">[Rosenberg]<br/>Naja, die unterhalten sich eben.</p>
+<p xml:id="subtitle10" begin="213200000t" end="230000000t" region="region0">[eilige Musik]</p>
+<p xml:id="subtitle11" begin="230800000t" end="261200000t" region="region0">[Knall, erschrecktes Einatmen]</p>
+<p xml:id="subtitle12" begin="276000000t" end="302000000t" region="region0">[Hadrian] <span style="style1">Sag mal, spinnst du?</span><br/><span style="style1">Deine Mutter stirbt!</span></p>
+<p xml:id="subtitle13" begin="302800000t" end="315600000t" region="region0">[Georg] <span style="style1">Spinnst du?</span></p>
+<p xml:id="subtitle14" begin="316400000t" end="342800000t" region="region0">Weißt du, wie viele Viren und Keime<br/>es im Krankenhaus gibt?</p>
+<p xml:id="subtitle15" begin="343600000t" end="362800000t" region="region0">-Ich geh nicht hin!<br/>-Komm!</p>
+<p xml:id="subtitle16" begin="363600000t" end="384000000t" region="region0">[regelmäßiges Piepsen] Erste…</p>
+<p xml:id="subtitle17" begin="384800000t" end="404000000t" region="region0">-Was?<br/>-[abgehacktes Atmen]</p>
+<p xml:id="subtitle18" begin="417200000t" end="443200000t" region="region0">[treibende Musik, anhaltender Piepton]</p>
+<p xml:id="subtitle19" begin="538800000t" end="552000000t" region="region0">[verwaschen] Maria?</p>
+<p xml:id="subtitle20" begin="571200000t" end="585600000t" region="region0">[treibende Musik]</p>
+<p xml:id="subtitle21" begin="632400000t" end="652399999t" region="region0">[heitere, treibende Musik]</p>
+<p xml:id="subtitle22" begin="748400000t" end="771600000t" region="region0">[wirbelnde Musik, Klingeln]</p>
+<p xml:id="subtitle23" begin="832800000t" end="851600000t" region="region0">[Die Musik verklingt]</p>
+<p xml:id="subtitle24" begin="852400000t" end="873200000t" region="region1">[entspannte Musik]</p>
+<p xml:id="subtitle25" begin="965200000t" end="982800000t" region="region1">[klickende Geräusche]</p>
+<p xml:id="subtitle26" begin="983600000t" end="999200000t" region="region1">[beschwingte Musik]</p>
+<p xml:id="subtitle27" begin="1050000000t" end="1083600000t" region="region1">-Der Bus ist da!<br/>-[Maria] Der Bus ist da, aussteigen!</p>
+<p xml:id="subtitle28" begin="1084400000t" end="1102800000t" region="region1">Wer ist denn da drinnen?</p>
+<p xml:id="subtitle29" begin="1107600000t" end="1119600000t" region="region0">Maria!</p>
+<p xml:id="subtitle30" begin="1134800000t" end="1151200000t" region="region1">Du bist da!</p>
+<p xml:id="subtitle31" begin="1162800000t" end="1184400000t" region="region1">Das hab ich mir nicht eingebildet?</p>
+<p xml:id="subtitle32" begin="1203200000t" end="1212400000t" region="region1">Hm.</p>
+<p xml:id="subtitle33" begin="1226400000t" end="1244400000t" region="region1">Und der Bub ist auch da.</p>
+<p xml:id="subtitle34" begin="1256000000t" end="1275200000t" region="region1">-So groß geworden.<br/>-Ja.</p>
+<p xml:id="subtitle35" begin="1276000000t" end="1320000000t" region="region1">Mein Herz, magst Hallo sagen zu<br/>deinem … Also, einfach Hallo sagen?</p>
+<p xml:id="subtitle36" begin="1320800000t" end="1332400000t" region="region0">[Georg] Ja, lass ihn.</p>
+<p xml:id="subtitle37" begin="1342800000t" end="1356800000t" region="region0">[Er ächzt.]</p>
+<p xml:id="subtitle38" begin="1362400000t" end="1387200000t" region="region0">-Wo bin ich denn?<br/>-Du bist operiert worden.</p>
+<p xml:id="subtitle39" begin="1388000000t" end="1413600000t" region="region0">Ja … aha.</p>
+<p xml:id="subtitle40" begin="1415200000t" end="1430800000t" region="region0">[ferne Durchsage]</p>
+<p xml:id="subtitle41" begin="1435600000t" end="1469200000t" region="region0">-Bin ich nicht tot?<br/>- Mich fragst du das?</p>
+<p xml:id="subtitle42" begin="1470000000t" end="1490400000t" region="region0">Nein, tut mir leid.<br/>Nein, du bist nicht tot.</p>
+<p xml:id="subtitle43" begin="1491200000t" end="1530400000t" region="region0">-Wärst du's gern?<br/>-Im Traum ist die Mama gestorben.</p>
+<p xml:id="subtitle44" begin="1531200000t" end="1544400000t" region="region0">Georg …</p>
+<p xml:id="subtitle45" begin="1570000000t" end="1587200000t" region="region0">… das hast du nicht geträumt.</p>
+<p xml:id="subtitle46" begin="1588800000t" end="1611200000t" region="region0">[Türschlagen]<br/>Ah …</p>
+<p xml:id="subtitle47" begin="1619200000t" end="1651200000t" region="region0">Maria, es tut mir so leid.<br/>Es tut mir so wahnsinnig leid,</p>
+<p xml:id="subtitle48" begin="1652000000t" end="1675200000t" region="region0">alles, was ich dir je angetan hab.</p>
+<p xml:id="subtitle49" begin="1676000000t" end="1709200000t" region="region0">Indien ist in Wahrheit<br/>überhaupt nicht weit genug weg.</p>
+<p xml:id="subtitle50" begin="1710000000t" end="1735600000t" region="region0">In Wahrheit müsstest du<br/>noch viel weiter weg gehen,</p>
+<p xml:id="subtitle51" begin="1736400000t" end="1754000000t" region="region0">dass du mich vergessen kannst.</p>
+<p xml:id="subtitle52" begin="1756400000t" end="1787200000t" region="region0">Ich weiß nicht, Ägypten<br/>wahrscheinlich oder Usbekistan.</p>
+<p xml:id="subtitle53" begin="1788000000t" end="1807200000t" region="region0">-Das ist näher.<br/>-Wie jetzt?</p>
+<p xml:id="subtitle54" begin="1808000000t" end="1836000000t" region="region0">Von Wien nach Kairo<br/>sind's circa 4000 Kilometer,</p>
+<p xml:id="subtitle55" begin="1836800000t" end="1871600000t" region="region0">nach Taschkent, das ist die Haupt-<br/>stadt von Usbekistan, geschätzt 5000.</p>
+<p xml:id="subtitle56" begin="1872400000t" end="1908000000t" region="region0">-Reicht schon.<br/>-Nach Goa sind's locker 8000.</p>
+<p xml:id="subtitle57" begin="1909200000t" end="1945600000t" region="region0">Wieso kannst du meine Entschuldigung<br/>nicht einfach annehmen?</p>
+<p xml:id="subtitle58" begin="1948400000t" end="1979200000t" region="region0">Als symbolische Maßeinheit,<br/>nicht als geografische.</p>
+<p xml:id="subtitle59" begin="1984000000t" end="2008400000t" region="region0">Ich hätt die Mama nicht bitten<br/>sollen, dich anzurufen.</p>
+<p xml:id="subtitle60" begin="2009200000t" end="2028000000t" region="region0">-Hat sie nicht.<br/>-Nicht?</p>
+<p xml:id="subtitle61" begin="2028800000t" end="2068000000t" region="region0">Nein, Rudi Bragana hat angerufen,<br/>dass du dich nicht operieren lässt</p>
+<p xml:id="subtitle62" begin="2068800000t" end="2086000000t" region="region0">und er sich ernsthafte Sorgen macht.</p>
+<p xml:id="subtitle63" begin="2091600000t" end="2130000000t" region="region0">Dass du stirbst, wenn du dich<br/>drückst, das machst du ja gern.</p>
+<p xml:id="subtitle64" begin="2134000000t" end="2167600000t" region="region0">-Also bin ich hergeflogen.<br/>-Ah so, da warst du schnell da.</p>
+<p xml:id="subtitle65" begin="2168400000t" end="2204800000t" region="region0">-Trotzdem einen Hauch zu spät.<br/>-Wieso? Ich leb doch noch.</p>
+<p xml:id="subtitle66" begin="2205600000t" end="2234800000t" region="region0">-Ich hab deine Mama gemeint.<br/>-Ja.</p>
+<p xml:id="subtitle67" begin="2235600000t" end="2261600000t" region="region0">-Magst einen Schluck?<br/>-Ja, gern.</p>
+<p xml:id="subtitle68" begin="2262400000t" end="2279200000t" region="region0">-Ja?<br/>-Ja.</p>
+<p xml:id="subtitle69" begin="2280000000t" end="2290800000t" region="region0">[abwartende Musik]</p>
+<p xml:id="subtitle70" begin="2396000000t" end="2408000000t" region="region0">Mh!</p>
+<p xml:id="subtitle71" begin="2414800000t" end="2447600000t" region="region0">-Das ist ja gar kein Eierlikör!<br/>-Nein. Mango-Lassi.</p>
+<p xml:id="subtitle72" begin="2451600000t" end="2473600000t" region="region0">-Schmeckt's?<br/>-Eh grauslich.</p>
+<p xml:id="subtitle73" begin="2485200000t" end="2512800000t" region="region0">[seufzend] Übrigens, dieser Rudi<br/>Bragana ist ein sehr netter Mensch.</p>
+<p xml:id="subtitle74" begin="2513600000t" end="2541600000t" region="region0">Sehr besorgt. Ich hab mich wirklich<br/>gut mit dem unterhalten.</p>
+<p xml:id="subtitle75" begin="2542400000t" end="2568800000t" region="region0">Ich hab ihm sogar das Rezept<br/>für meine Malakoff gegeben.</p>
+<p xml:id="subtitle76" begin="2569599999t" end="2605600000t" region="region0">-Und da bin ich ja heikel.<br/>-Du bist nicht wegen des Erbes da?</p>
+<p xml:id="subtitle77" begin="2606400000t" end="2645200000t" region="region0">-Welche Erbschaft?<br/>-Ich weiß, wer mein Vater war.</p>
+<p xml:id="subtitle78" begin="2646000000t" end="2683200000t" region="region0">-Ein echtes Kapitalistenschwein!<br/>-Ah geh.</p>
+<p xml:id="subtitle79" begin="2684000000t" end="2723200000t" region="region0">So viel zu meiner linken<br/>Anarcho-Mama, Muse der Künstler.</p>
+<p xml:id="subtitle80" begin="2724000000t" end="2763600000t" region="region0">Ich hab ihr gesagt,<br/>sie soll dir das Testament zeigen,</p>
+<p xml:id="subtitle81" begin="2764400000t" end="2798400000t" region="region0">-damit du herkommst.<br/>-Georg, du gehst immer von dir aus.</p>
+<p xml:id="subtitle82" begin="2799200000t" end="2820400000t" region="region0">Kann halt meinen Vater<br/>nicht verleugnen.</p>
+<p xml:id="subtitle83" begin="2842000000t" end="2878800000t" region="region0">-Er übrigens auch nicht.<br/>-Er hat einen Namen: David.</p>
+<p xml:id="subtitle84" begin="2906000000t" end="2924800000t" region="region0">Und ich bin wirklich<br/>wegen dir gekommen,</p>
+<p xml:id="subtitle85" begin="2925600000t" end="2944400000t" region="region0">nicht wegen einer<br/>depperten Erbschaft.</p>
+<p xml:id="subtitle86" begin="2948800000t" end="2975200000t" region="region0">[bewegte Musik, Stöhnen]</p>
+<p xml:id="subtitle87" begin="2985600000t" end="3001200000t" region="region0">[Er imitiert Georg.]</p>
+<p xml:id="subtitle88" begin="3017600000t" end="3028800000t" region="region0">Hallo.</p>
+<p xml:id="subtitle89" begin="3039200000t" end="3054400000t" region="region0">[unheilvolle Musik]</p>
+<p xml:id="subtitle90" begin="3055200000t" end="3066400000t" region="region0">Servus, Klemi.</p>
+<p xml:id="subtitle91" begin="3075200000t" end="3115200000t" region="region0">-Na, wie geht's unserem Patienten?<br/>-Mhm. Abstand.</p>
+<p xml:id="subtitle92" begin="3127200000t" end="3152800000t" region="region0">Na ja … wie wird's mir gehen?</p>
+<p xml:id="subtitle93" begin="3159200000t" end="3170000000t" region="region0">Ui.</p>
+<p xml:id="subtitle94" begin="3176400000t" end="3196400000t" region="region0">Willkommen im Club der toten Hosen.</p>
+<p xml:id="subtitle95" begin="3210800000t" end="3236800000t" region="region0">Ich hol sie grad ab,<br/>der wurde heute Morgen operiert.</p>
+<p xml:id="subtitle96" begin="3237600000t" end="3272800000t" region="region0">-Nico, ich ruf dich später an.<br/>-[seufzend] Ach Gott!</p>
+<p xml:id="subtitle97" begin="3275600000t" end="3313600000t" region="region0">-Und? Wie geht's ihm?<br/>-Ach, er ist immer der Gleiche.</p>
+<p xml:id="subtitle98" begin="3314400000t" end="3346000000t" region="region0">Nur ein paar Gramm leichter,<br/>so eine Prostata wiegt ja nicht viel.</p>
+<p xml:id="subtitle99" begin="3359200000t" end="3378400000t" region="region0">-Wollen wir zu mir gehen?<br/>-Ja, gern.</p>
+<p xml:id="subtitle100" begin="3379200000t" end="3404400000t" region="region0">Ich muss nur den Kleinen holen,<br/>der ist noch beim Georg.</p>
+<p xml:id="subtitle101" begin="3405200000t" end="3432800000t" region="region0">Der Hadi schaut auf die Kinder<br/>und wir reden.</p>
+<p xml:id="subtitle102" begin="3438400000t" end="3460800000t" region="region0">Wir haben uns so lang nicht gesehen.</p>
+<p xml:id="subtitle103" begin="3461600000t" end="3508400000t" region="region0">Stimmt, ich hab Jahre nichts mit-<br/>bekommen, nur Anna hat angerufen.</p>
+<p xml:id="subtitle104" begin="3520000000t" end="3546800000t" region="region0">-Weißt eh, wie das ist.<br/>-Ah so, ja, 'tschuldigung.</p>
+<p xml:id="subtitle105" begin="3547600000t" end="3583600000t" region="region0">Die viele Arbeit.<br/>Bei so viel Stress bleibt keine Zeit.</p>
+<p xml:id="subtitle106" begin="3584400000t" end="3597600000t" region="region0">Maria!</p>
+<p xml:id="subtitle107" begin="3631200000t" end="3655600000t" region="region0">-Entschuldigung, aber dass du …<br/>-Was?</p>
+<p xml:id="subtitle108" begin="3676400000t" end="3694800000t" region="region0">Dass du und der Hadi …</p>
+<p xml:id="subtitle109" begin="3700400000t" end="3735200000t" region="region0">Das hat mich wirklich überrascht.<br/>Ist der nicht zu alt für dich?</p>
+<p xml:id="subtitle110" begin="3736000000t" end="3758400000t" region="region0">Oder gibst du Lateinnachhilfe<br/>für Fortgeschrittene?</p>
+<p xml:id="subtitle111" begin="3785200000t" end="3799600000t" region="region0">Weißt du, wie es dem Simon geht?</p>
+<p xml:id="subtitle112" begin="3810800000t" end="3829600000t" region="region0">[leise Durchsage, Seufzen]</p>
+<p xml:id="subtitle113" begin="3833200000t" end="3855600000t" region="region0">Ich hol erst mal den Kleinen.</p>
+<p xml:id="subtitle114" begin="3858800000t" end="3879200000t" region="region0">[nachdenkliche Musik]</p>
+<p xml:id="subtitle115" begin="3886000000t" end="3917200000t" region="region0">Du, stell dir vor: Die Anna ist tot.</p>
+<p xml:id="subtitle116" begin="3928400000t" end="3951600000t" region="region0">Ja, die Mama vom Georg.</p>
+<p xml:id="subtitle117" begin="3960800000t" end="3979200000t" region="region0">Pff … Herzinfarkt.</p>
+<p xml:id="subtitle118" begin="3989200000t" end="4010000000t" region="region0">Ja, die Walli ist total fertig.</p>
+<p xml:id="subtitle119" begin="4014800000t" end="4055200000t" region="region0">Die Anna war zwar kein Lercherl,<br/>aber immerhin die Oma von ihrer Fini.</p>
+<p xml:id="subtitle120" begin="4058800000t" end="4094400000t" region="region0">Na, wart amal.<br/>Naa, sie war eigentlich die Uroma.</p>
+<p xml:id="subtitle121" begin="4102000000t" end="4143600000t" region="region0">Ja, wurscht. Wir sollten uns jeden-<br/>falls ein bissl um die Walli kümmern.</p>
+<p xml:id="subtitle122" begin="4144400000t" end="4172800000t" region="region0">Ein bissl ein Herz zeigen, weißt eh.<br/>Ja.</p>
+<p xml:id="subtitle123" begin="4173600000t" end="4199200000t" region="region0">Na, keine Ahnung,<br/>wo ich das hernehm.</p>
+<p xml:id="subtitle124" begin="4201200000t" end="4216800000t" region="region0">[abwartende Musik]</p>
+<p xml:id="subtitle125" begin="4226800000t" end="4245200000t" region="region0">-Was ist passiert?<br/>-Die Anna ist gestorben.</p>
+<p xml:id="subtitle126" begin="4246000000t" end="4270400000t" region="region0">Die Oma von der Walli.<br/>Oder nein, die Mutter vom Georg,</p>
+<p xml:id="subtitle127" begin="4271200000t" end="4303200000t" region="region0">die Uroma von der Fini.<br/>Wurscht, ich blick da eh nie durch.</p>
+<p xml:id="subtitle128" begin="4307600000t" end="4342400000t" region="region0">-Hast du die gekannt?<br/>-Naa, nur den Georg, das reicht.</p>
+<p xml:id="subtitle129" begin="4346800000t" end="4360000000t" region="region0">Der war der Schwager vom Hadi,</p>
+<p xml:id="subtitle130" begin="4360800000t" end="4385200000t" region="region0">wie der noch mit der Tochter<br/>von der Anna verheiratet war.</p>
+<p xml:id="subtitle131" begin="4392400000t" end="4430000000t" region="region0">-Glaub ich.<br/>-Echt, und wo ist die … Schwester?</p>
+<p xml:id="subtitle132" begin="4434800000t" end="4450000000t" region="region0">Auch tot, was ich weiß.</p>
+<p xml:id="subtitle133" begin="4450800000t" end="4473200000t" region="region0">In der Vorstadt<br/>sterben s' wie die Ratten.</p>
+<p xml:id="subtitle134" begin="4474000000t" end="4489200000t" region="region0">-Sind ja auch welche.<br/>-Stimmt.</p>
+<p xml:id="subtitle135" begin="4494800000t" end="4520400000t" region="region0">Die Nico hat gemeint,<br/>wir sollen die Walli trösten.</p>
+<p xml:id="subtitle136" begin="4540000000t" end="4560000000t" region="region0">[Ächzen, lockere Musik]</p>
+<p xml:id="subtitle137" begin="4586000000t" end="4606000000t" region="region0">-Du, Spatzl?<br/>-[Sonia] Mhm?</p>
+<p xml:id="subtitle138" begin="4610400000t" end="4634000000t" region="region0">Der Georg und du<br/>habts doch denselben Vater, oder?</p>
+<p xml:id="subtitle139" begin="4634800000t" end="4673600000t" region="region0">-[gedämpft] Ja, eh.<br/>-Was ist dann seine Mutter für dich?</p>
+<p xml:id="subtitle140" begin="4674400000t" end="4692000000t" region="region0">Ja, nix.</p>
+<p xml:id="subtitle141" begin="4698400000t" end="4712400000t" region="region0">[Anatol] Und deswegen fahrst hin?</p>
+<p xml:id="subtitle142" begin="4747600000t" end="4762000000t" region="region0">3975, Spatzl.</p>
+<p xml:id="subtitle143" begin="4800800000t" end="4825600000t" region="region0">Ich weiß doch, dass du dir<br/>keine Geburtstage merkst.</p>
+<p xml:id="subtitle144" begin="4836000000t" end="4862400000t" region="region0">[lockere Musik, Klicken der Tasten]</p>
+<p xml:id="subtitle145" begin="4887200000t" end="4908000000t" region="region0">[Die Musik wird ruhig.]</p>
+<p xml:id="subtitle146" begin="4943200000t" end="4958800000t" region="region0">[verstimmte Laute]</p>
+<p xml:id="subtitle147" begin="5021200000t" end="5046800000t" region="region0">[verhaltenes Grollen,<br/>angespannte Musik]</p>
+<p xml:id="subtitle148" begin="5083200000t" end="5110800000t" region="region0">[empörtes Auflachen,<br/>trippelnde Musik]</p>
+<p xml:id="subtitle149" begin="5176799999t" end="5202400000t" region="region0">[Die Musik verklingt,<br/>Vogelzwitschern.]</p>
+<p xml:id="subtitle150" begin="5216000000t" end="5231599999t" region="region0">[Tastenklicken]</p>
+<p xml:id="subtitle151" begin="5256800000t" end="5271200000t" region="region0">[Spülung]</p>
+<p xml:id="subtitle152" begin="5318400000t" end="5334400000t" region="region0">[Vogelzwitschern]</p>
+<p xml:id="subtitle153" begin="5364400000t" end="5390800000t" region="region0">Du musst mich nicht extra hinfahren,<br/>ich fürcht, das dauert länger.</p>
+<p xml:id="subtitle154" begin="5403200000t" end="5429600000t" region="region0">Schlaf dich einfach mal aus<br/>und durchstöber meine Sachen.</p>
+<p xml:id="subtitle155" begin="5432000000t" end="5446000000t" region="region0">Bitte, was denkst du von mir?</p>
+<p xml:id="subtitle156" begin="5450800000t" end="5487600000t" region="region0">Wie kommst du drauf, dass ich stöber<br/>oder an den Handy geh? Spatzl.</p>
+<p xml:id="subtitle157" begin="5489600000t" end="5526800000t" region="region0">Nicht? Also, ich geh immer<br/>an dein Handy.</p>
+<p xml:id="subtitle158" begin="5532000000t" end="5560400000t" region="region0">Und du weißt ja … ich würd sogar<br/>aus Eifersucht morden.</p>
+<p xml:id="subtitle159" begin="5563600000t" end="5589600000t" region="region0">Was heißt, du würdest? Du hast.</p>
+<p xml:id="subtitle160" begin="5592800000t" end="5615200000t" region="region0">Nein, nein, das stimmt schon so.<br/>Ich würde.</p>
+<p xml:id="subtitle161" begin="5616000000t" end="5629600000t" region="region0">Wie meinst das jetzt?</p>
+<p xml:id="subtitle162" begin="5630400000t" end="5650800000t" region="region0">Nur, weil ich's<br/>schon einmal getan hab,</p>
+<p xml:id="subtitle163" begin="5651600000t" end="5704400000t" region="region0">heißt das nicht, dass ich's nicht<br/>wieder … und wieder … wieder …</p>
+<p xml:id="subtitle164" begin="5729600000t" end="5741200000t" region="region0">… tun würde.</p>
+<p xml:id="subtitle165" begin="5744800000t" end="5761200000t" region="region0">[ernste Musik]</p>
+<p xml:id="subtitle166" begin="5791200000t" end="5802800000t" region="region0">Ja, ich bin's.</p>
+<p xml:id="subtitle167" begin="5803600000t" end="5820800000t" region="region0">Wir müssen reden.</p>
+<p xml:id="subtitle168" begin="5830000000t" end="5848400000t" region="region0">[aufgeregtes Murmeln]</p>
+<p xml:id="subtitle169" begin="5849200000t" end="5862400000t" region="region0">Na ja, die Chantal.</p>
+<p xml:id="subtitle170" begin="5866000000t" end="5899200000t" region="region0">Es ist folgendermaßen:<br/>Wir haben da ein kleines Problem.</p>
+<p xml:id="subtitle171" begin="5909200000t" end="5960800000t" region="region0">Aufräumen, weiter aufräumen, Fini.<br/>Es muss alles rein in die Kiste.</p>
+<p xml:id="subtitle172" begin="5989600000t" end="6017600000t" region="region0">So … das auch, das auch.</p>
+<p xml:id="subtitle173" begin="6018400000t" end="6037600000t" region="region0">Das auch, das auch.</p>
+<p xml:id="subtitle174" begin="6038400000t" end="6069600000t" region="region0">Das auch … und das auch. So.</p>
+<p xml:id="subtitle175" begin="6070800000t" end="6103600000t" region="region0">Schau, alles aufgeräumt.<br/>Viel besser so.</p>
+<p xml:id="subtitle176" begin="6182000000t" end="6195600000t" region="region0">[gemächliche Musik]</p>
+<p xml:id="subtitle177" begin="6252000000t" end="6276800000t" region="region0">[angespannt-treibende Musik]</p>
+<p xml:id="subtitle178" begin="6400800000t" end="6418400000t" region="region0">[Die Musik klingt aus.]</p>
+<p xml:id="subtitle179" begin="6442800000t" end="6472800000t" region="region0">Ich habe Ihre Nummer<br/>von Priska Fischer.</p>
+<p xml:id="subtitle180" begin="6480800000t" end="6492400000t" region="region0">Ah, Sie wissen Bescheid.</p>
+<p xml:id="subtitle181" begin="6502400000t" end="6528000000t" region="region0">Das wär ja …<br/>das wär ja hervorragend, ja!</p>
+<p xml:id="subtitle182" begin="6548800000t" end="6560400000t" region="region0">Wann immer Sie wollen.</p>
+<p xml:id="subtitle183" begin="6579200000t" end="6600400000t" region="region0">Gut … gut.</p>
+<p xml:id="subtitle184" begin="6602800000t" end="6615600000t" region="region0">[belebte Musik]</p>
+<p xml:id="subtitle185" begin="6620800000t" end="6640400000t" region="region0">Alles anders<br/>und doch irgendwie gleich.</p>
+<p xml:id="subtitle186" begin="6654800000t" end="6672400000t" region="region0">Ah, da vorne die Straße.</p>
+<p xml:id="subtitle187" begin="6675600000t" end="6686400000t" region="region0">Hm!</p>
+<p xml:id="subtitle188" begin="6692800000t" end="6708400000t" region="region0">Ist schon witzig,<br/>ich bin schon so gewohnt,</p>
+<p xml:id="subtitle189" begin="6709200000t" end="6736400000t" region="region0">dass überall Kühe auf der Straße<br/>liegen, das fehlt mir richtig.</p>
+<p xml:id="subtitle190" begin="6742800000t" end="6768800000t" region="region0">-Ja, Goa ist eine Spur anders.<br/>-Kaum.</p>
+<p xml:id="subtitle191" begin="6773600000t" end="6807600000t" region="region0">Dort liegt der Dreck auf der Straße,<br/>da wird er unter den Teppich gekehrt.</p>
+<p xml:id="subtitle192" begin="6830800000t" end="6844400000t" region="region0">Da, unser Haus!</p>
+<p xml:id="subtitle193" begin="6852400000t" end="6880800000t" region="region0">Mein Gott, was wir da alles erlebt haben.</p>
+<p xml:id="subtitle194" begin="6881600000t" end="6902400000t" region="region0">Da hast du den Georg an die Wand gefahren.</p>
+<p xml:id="subtitle195" begin="6903200000t" end="6927600000t" region="region0">Da sollte eigentlich<br/>eine Gedenktafel hängen.</p>
+<p xml:id="subtitle196" begin="6928400000t" end="6958000000t" region="region0">Erinnerung an die Befreiungsfahrt<br/>der heiligen Maria aus der Vorstadt.</p>
+<p xml:id="subtitle197" begin="6958800000t" end="6992800000t" region="region0">-Unvergesslich!<br/>-Ein Meisterstück… Missgeschick.</p>
+<p xml:id="subtitle198" begin="6993600000t" end="7030400000t" region="region0">Ja, eh. Ein vorsätzliches.<br/>In Ewigkeit, Amen.</p>
+<p xml:id="subtitle199" begin="7042400000t" end="7076800000t" region="region0">Weißt du, was das Beste ist,<br/>was mir im Leben passiert ist?</p>
+<p xml:id="subtitle200" begin="7077600000t" end="7110000000t" region="region0">-[Maria] Was?<br/>-Was wir das Schlimmste fanden.</p>
+<p xml:id="subtitle201" begin="7118000000t" end="7130000000t" region="region0">Meine Tochter.</p>
+<p xml:id="subtitle202" begin="7154800000t" end="7172400000t" region="region0">Ich vermisse den Simon.</p>
+<p xml:id="subtitle203" begin="7222400000t" end="7237200000t" region="region0">Bei uns in Goa sagt man,</p>
+<p xml:id="subtitle204" begin="7238000000t" end="7278000000t" region="region0">das Leben wird vorwärts gelebt<br/>und rückwärts verstanden.</p>
+<p xml:id="subtitle205" begin="7307200000t" end="7326800000t" region="region0">[Summton, heitere Musik]</p>
+<p xml:id="subtitle206" begin="7398000000t" end="7411600000t" region="region0">[Schloss klickt]</p>
+<p xml:id="subtitle207" begin="7422000000t" end="7438400000t" region="region0">-Oh Gott.<br/>-Es dauert nicht lang.</p>
+<p xml:id="subtitle208" begin="7439200000t" end="7465600000t" region="region0">-Alles in Ordnung?<br/>-Ein Todesfall.</p>
+<p xml:id="subtitle209" begin="7466400000t" end="7491600000t" region="region0">Seit wann erschüttert dich das so?<br/>Das musst doch eh gewohnt sein.</p>
+<p xml:id="subtitle210" begin="7492400000t" end="7518800000t" region="region0">Diesmal ein natürlicher, das ist anders.</p>
+<p xml:id="subtitle211" begin="7519600000t" end="7570400000t" region="region0">Die Schwiegermutter von der Waltraut.<br/>Naa, die Schwiegeroma.</p>
+<p xml:id="subtitle212" begin="7575600000t" end="7602400000t" region="region0">-Wurscht, trotzdem tragisch.<br/>-Mein Beileid.</p>
+<p xml:id="subtitle213" begin="7603200000t" end="7614800000t" region="region0">Die Anna Schneider?</p>
+<p xml:id="subtitle214" begin="7615600000t" end="7647600000t" region="region0">Weißt eh, die Ex-Geliebte vom Morena,<br/>Mutter vom Georg Schneider.</p>
+<p xml:id="subtitle215" begin="7648400000t" end="7679600000t" region="region0">Drum hat er so viel geerbt.<br/>Kömma trotzdem reinkommen?</p>
+<p xml:id="subtitle216" begin="7680400000t" end="7695600000t" region="region0">Wenn's sein muss.</p>
+<p xml:id="subtitle217" begin="7706800000t" end="7721600000t" region="region0">[Tabata] Haben Sie vor irgendetwas Angst?</p>
+<p xml:id="subtitle218" begin="7722400000t" end="7745600000t" region="region0">-[Nicoletta] Nein, wieso?<br/>-[Tabata] Frau Pudschedl?</p>
+<p xml:id="subtitle219" begin="7746400000t" end="7765600000t" region="region0">Huber. Wir sind geschieden.</p>
+<p xml:id="subtitle220" begin="7785600000t" end="7813600000t" region="region0">-[Nico seufzt] Vermissen Sie etwas?<br/>-[Tür schließt]</p>
+<p xml:id="subtitle221" begin="7814400000t" end="7831200000t" region="region0">Ja. Eine Putzfrau.</p>
+<p xml:id="subtitle222" begin="7866000000t" end="7876800000t" region="region0">Ist das Ihrer?</p>
+<p xml:id="subtitle223" begin="7897600000t" end="7906000000t" region="region0">Keine Ahnung.</p>
+<p xml:id="subtitle224" begin="7906800000t" end="7928400000t" region="region0">[Jörg] Wir haben deinen BH<br/>in einer Hütte gefunden.</p>
+<p xml:id="subtitle225" begin="7936800000t" end="7953600000t" region="region0">Am Niederkreuzer See.</p>
+<p xml:id="subtitle226" begin="7962800000t" end="7989600000t" region="region0">-Oh. Wie schön.<br/>-Könnt ich auch einen Kaffee haben?</p>
+<p xml:id="subtitle227" begin="7990400000t" end="8000400000t" region="region0">Nein.</p>
+<p xml:id="subtitle228" begin="8008000000t" end="8037200000t" region="region0">-Torschlusspanik?<br/>-Was geht dich das an?</p>
+<p xml:id="subtitle229" begin="8038000000t" end="8052000000t" region="region0">-Hm!<br/>-[nachäffend] Hm.</p>
+<p xml:id="subtitle230" begin="8052800000t" end="8078400000t" region="region0">-Soll ich so lange draußen warten?<br/>-Nein, nein, alles gut.</p>
+<p xml:id="subtitle231" begin="8082400000t" end="8109600000t" region="region0">-Möchten Sie vielleicht einen Kaffee?<br/>-Ja, bitte.</p>
+<p xml:id="subtitle232" begin="8140400000t" end="8152800000t" region="region0">Geht's wieder?</p>
+<p xml:id="subtitle233" begin="8176800000t" end="8209200000t" region="region0">Gut. Man könnte durchaus vermuten,<br/>dass Raoul Krug</p>
+<p xml:id="subtitle234" begin="8210000000t" end="8240800000t" region="region0">Joachim Schnitzler ermordet<br/>und danach Selbstmord begangen hat.</p>
+<p xml:id="subtitle235" begin="8256000000t" end="8273200000t" region="region0">[Nicoletta] Eh. Was sonst?</p>
+<p xml:id="subtitle236" begin="8282800000t" end="8302800000t" region="region0">Was hat das alles<br/>mit meinem BH zu tun?</p>
+<p xml:id="subtitle237" begin="8303600000t" end="8322800000t" region="region0">Hat er den Schnitzler damit erwürgt?</p>
+<p xml:id="subtitle238" begin="8332000000t" end="8365200000t" region="region0">-Also ist es doch Ihr BH?<br/>-Kann sein, ja.</p>
+<p xml:id="subtitle239" begin="8375200000t" end="8387600000t" region="region0">[Jörg keucht.]</p>
+<p xml:id="subtitle240" begin="8405200000t" end="8418000000t" region="region0">Könnt ich mir vielleicht selber<br/>einen Kaffee machen?</p>
+<p xml:id="subtitle241" begin="8418800000t" end="8447600000t" region="region0">-Nein.<br/>-Gut. Frau Huber.</p>
+<p xml:id="subtitle242" begin="8451600000t" end="8487600000t" region="region0">Wo waren Sie in der Nacht<br/>vom 18.9. zum 19.9. letzten Jahres?</p>
+<p xml:id="subtitle243" begin="8488400000t" end="8514400000t" region="region0">Keine Ahnung, Herr Pudschedl.<br/>Wo waren Sie denn?</p>
+<p xml:id="subtitle244" begin="8524800000t" end="8541200000t" region="region0">-Zucker?<br/>-Nein, danke.</p>
+<p xml:id="subtitle245" begin="8542000000t" end="8572800000t" region="region0">-Kennen Sie eine gewisse Chantal Haas?<br/>-Nicht, dass ich wüsste.</p>
+<p xml:id="subtitle246" begin="8573600000t" end="8599200000t" region="region0">-Wer ist das?<br/>-Ein Schuss Milch wäre fein.</p>
+<p xml:id="subtitle247" begin="8608400000t" end="8628000000t" region="region0">Also, ihr zwei könnts es wirklich.</p>
+<p xml:id="subtitle248" begin="8636000000t" end="8657200000t" region="region0">Sie hat damals<br/>die gefälschten Entlassungspapiere</p>
+<p xml:id="subtitle249" begin="8658000000t" end="8686000000t" region="region0">von Joachim Schnitzler ausgestellt.<br/>Keine echte?</p>
+<p xml:id="subtitle250" begin="8686800000t" end="8720400000t" region="region0">-Nein.<br/>-Irgendwer hat sie darum gebeten.</p>
+<p xml:id="subtitle251" begin="8721200000t" end="8750000000t" region="region0">Der Raoul? Wie wär's damit?<br/>Fragen Sie doch Chantal Haas.</p>
+<p xml:id="subtitle252" begin="8752800000t" end="8789200000t" region="region0">Das werden wir. Nur leider hat man<br/>sie wohl in den Wahnsinn getrieben.</p>
+<p xml:id="subtitle253" begin="8790000000t" end="8829200000t" region="region0">-Genau wie du mich.<br/>-Ja. Bei ihr besteht Hoffnung.</p>
+<p xml:id="subtitle254" begin="8830000000t" end="8850400000t" region="region0">-Denn sie sitzt in der Psychiatrie.<br/>-Ah so?</p>
+<p xml:id="subtitle255" begin="8853600000t" end="8864800000t" region="region0">[Tabata] Jörg.</p>
+<p xml:id="subtitle256" begin="8891600000t" end="8918400000t" region="region0">Stellen Sie sich vor, es gibt<br/>gewisse Leute, die sind überzeugt,</p>
+<p xml:id="subtitle257" begin="8919200000t" end="8945200000t" region="region0">dass Sie alle, Sie und Ihre<br/>feinen Freundinnen und Freunde,</p>
+<p xml:id="subtitle258" begin="8946000000t" end="8988000000t" region="region0">-dabei Ihre Finger im Spiel haben.<br/>-Wie das in der Vorstadt so ist.</p>
+<p xml:id="subtitle259" begin="8991200000t" end="9022400000t" region="region0">Aber wobei?<br/>Wir haben ja niemanden ermordet.</p>
+<p xml:id="subtitle260" begin="9026000000t" end="9061600000t" region="region0">Ermordet vielleicht nicht.<br/>Aber ermorden lassen?</p>
+<p xml:id="subtitle261" begin="9062800000t" end="9118400000t" region="region0">[Jörg] Ui, ui, ui, ui, ui …<br/>ah … Hilfe? Irgendwer?</p>
+<p xml:id="subtitle262" begin="9119200000t" end="9148000000t" region="region0">[forsche Musik, Stimmengewirr]</p>
+<p xml:id="subtitle263" begin="9209600000t" end="9227600000t" region="region0">[geheimnisvolle Musik]</p>
+<p xml:id="subtitle264" begin="9319600000t" end="9333200000t" region="region0">[angespannte Musik]</p>
+<p xml:id="subtitle265" begin="9445200000t" end="9463600000t" region="region0">Schmink dir das ab,<br/>ich möchte keine Kinder.</p>
+<p xml:id="subtitle266" begin="9464400000t" end="9475600000t" region="region0">Nein!</p>
+<p xml:id="subtitle267" begin="9508400000t" end="9524000000t" region="region0">[beschwingte Musik]<br/>Was …</p>
+<p xml:id="subtitle268" begin="9536400000t" end="9552000000t" region="region0">Was ist das?</p>
+<p xml:id="subtitle269" begin="9584800000t" end="9600000000t" region="region0">-Die wird bedroht?<br/>-Ja.</p>
+<p xml:id="subtitle270" begin="9603600000t" end="9640000000t" region="region0">-[Tabata] <span style="style1">&quot;Und wie hast das gemacht?&quot;</span><br/>-[Jörg]&quot;Sag Magic Jörgi zu mir.&quot;</p>
+<p xml:id="subtitle271" begin="9650800000t" end="9666000000t" region="region0">[trippelnde Musik]</p>
+<p xml:id="subtitle272" begin="9684000000t" end="9702400000t" region="region0">[Kusslaut, Lachen]</p>
+<p xml:id="subtitle273" begin="9715600000t" end="9740400000t" region="region0">Ja, hier hat sich<br/>eigentlich nix verändert.</p>
+<p xml:id="subtitle274" begin="9741200000t" end="9760800000t" region="region0">Außer die vielen Frauen,<br/>die hier nicht mehr wohnen.</p>
+<p xml:id="subtitle275" begin="9761600000t" end="9792800000t" region="region0">-Aha?<br/>-Nicht so wichtig. Komm, bitte.</p>
+<p xml:id="subtitle276" begin="9810800000t" end="9829200000t" region="region0">-Hallo!<br/>-Hadi!</p>
+<p xml:id="subtitle277" begin="9832400000t" end="9867600000t" region="region0">Ja … schade, dass wir uns<br/>unter diesen Umständen …</p>
+<p xml:id="subtitle278" begin="9875600000t" end="9892400000t" region="region0">-Ja.<br/>-Schau mal, Fini.</p>
+<p xml:id="subtitle279" begin="9903200000t" end="9932400000t" region="region0">-Die Oma.<br/>-Ja, mein Schatz!</p>
+<p xml:id="subtitle280" begin="9940000000t" end="9957600000t" region="region0">[atmosphärische Musik]</p>
+<p xml:id="subtitle281" begin="10038000000t" end="10056400000t" region="region0">Sie hat die Polizei eingeschaltet.</p>
+<p xml:id="subtitle282" begin="10069600000t" end="10088800000t" region="region0">Die wollen was von ihr,<br/>nicht sie von denen.</p>
+<p xml:id="subtitle283" begin="10089600000t" end="10131200000t" region="region0">Glaubst du vielleicht. Die hat denen<br/>die Fotos gegeben, ich hab's gesehen.</p>
+<p xml:id="subtitle284" begin="10132000000t" end="10161600000t" region="region0">Ja, und jetzt? Hören wir auf?</p>
+<p xml:id="subtitle285" begin="10162400000t" end="10182800000t" region="region0">Seh ich so aus,<br/>als würd ich aufgeben?</p>
+<p xml:id="subtitle286" begin="10183600000t" end="10235600000t" region="region0">Ach ja … du bist ja<br/>die Russenmafia.</p>
+<p xml:id="subtitle287" begin="10245200000t" end="10273599999t" region="region0">Mhm. Mach dich nur lustig.</p>
+<p xml:id="subtitle288" begin="10277600000t" end="10296800000t" region="region0">Das Lachen wird dir bald vergehen.</p>
+<p xml:id="subtitle289" begin="10302400000t" end="10330000000t" region="region0">[Sie sprechen russisch.]</p>
+<p xml:id="subtitle290" begin="10341600000t" end="10370000000t" region="region0">Du hast noch vor zwei Jahren ein<br/>Nagelstudio am Praterstern gehabt,</p>
+<p xml:id="subtitle291" begin="10373599999t" end="10406400000t" region="region0">-bevor du in Konkurs gegangen bist.<br/>-Ja.</p>
+<p xml:id="subtitle292" begin="10422800000t" end="10467600000t" region="region0">Und das auch nur deshalb, weil ich<br/>dir mein ganzes Vermögen geborgt hab.</p>
+<p xml:id="subtitle293" begin="10468399999t" end="10483199999t" region="region0">Wenn du das glaubst …</p>
+<p xml:id="subtitle294" begin="10508000000t" end="10518800000t" region="region0">Und jetzt?</p>
+<p xml:id="subtitle295" begin="10533200000t" end="10551600000t" region="region0">[spannungsvolle Musik]</p>
+<p xml:id="subtitle296" begin="10569200000t" end="10610000000t" region="region0">[Olga] Die Tasche muss verschwinden,<br/>bevor die Bullen hier aufkreuzen.</p>
+<p xml:id="subtitle297" begin="10617600000t" end="10647200000t" region="region0">-Warum sollten sie?<br/>-Am besten, wir schmeißen alles weg.</p>
+<p xml:id="subtitle298" begin="10657200000t" end="10670400000t" region="region0">Die Tasche von Schnitzler?</p>
+<p xml:id="subtitle299" begin="10694800000t" end="10708800000t" region="region0">Bist du verrückt?</p>
+<p xml:id="subtitle300" begin="10755200000t" end="10766000000t" region="region0">Im Gegenteil.</p>
+<p xml:id="subtitle301" begin="10786400000t" end="10804000000t" region="region0">[ernste Musik]</p>
+<p xml:id="subtitle302" begin="10897200000t" end="10912000000t" region="region0">[pulsierende Musik]</p>
+<p xml:id="subtitle303" begin="10969200000t" end="10989200000t" region="region0">[rhythmische, belebte Musik]</p>
+<p xml:id="subtitle304" begin="11076800000t" end="11099600000t" region="region0">Dr. Bragana. Ich hab einen Termin<br/>bei Dr. Rosenberg.</p>
+<p xml:id="subtitle305" begin="11100400000t" end="11118800000t" region="region0">-Ich ruf gleich durch.<br/>-Danke.</p>
+<p xml:id="subtitle306" begin="11150000000t" end="11160400000t" region="region0">Herr Doktor?</p>
+<p xml:id="subtitle307" begin="11169600000t" end="11187600000t" region="region0">-Eine Frau Doktor …<br/>-Bragana.</p>
+<p xml:id="subtitle308" begin="11188400000t" end="11202000000t" region="region0">… Bragana ist da für Sie.</p>
+<p xml:id="subtitle309" begin="11215600000t" end="11227200000t" region="region0">Okay.</p>
+<p xml:id="subtitle310" begin="11237600000t" end="11254400000t" region="region0">-Herr Doktor kommt gleich.<br/>-Danke.</p>
+<p xml:id="subtitle311" begin="11307200000t" end="11341600000t" region="region0">-Ah, Frau Kollegin. Sehr schön.<br/>-Herr Doktor.</p>
+<p xml:id="subtitle312" begin="11347600000t" end="11384000000t" region="region0">-Wie schön, dass Sie die Zeit finden.<br/>-Für Sie doch immer, Frau Kollegin.</p>
+<p xml:id="subtitle313" begin="11386400000t" end="11413600000t" region="region0">Kommen S'.<br/>Wir gehen am besten in mein Büro.</p>
+<p xml:id="subtitle314" begin="11421600000t" end="11438800000t" region="region0">Da sind wir ungestörter.</p>
+<p xml:id="subtitle315" begin="11452800000t" end="11482400000t" region="region0">Komm, Eva.<br/>Rastest dich noch ein bissl aus.</p>
+<p xml:id="subtitle316" begin="11483200000t" end="11511200000t" region="region0">Und dann gibt's<br/>die nächste Untersuchung.</p>
+<p xml:id="subtitle317" begin="11514400000t" end="11530000000t" region="region0">[ferne Gespräche]</p>
+<p xml:id="subtitle318" begin="11560400000t" end="11594000000t" region="region0">Das war gerade der Pfleger,<br/>von dem ich erzählt hab.</p>
+<p xml:id="subtitle319" begin="11602800000t" end="11646800000t" region="region0">Der Typ nervt zwar, aber …<br/>leider hat er recht.</p>
+<p xml:id="subtitle320" begin="11647600000t" end="11660000000t" region="region0">Ich kann's ihm nur nicht sagen.</p>
+<p xml:id="subtitle321" begin="11660800000t" end="11678800000t" region="region0">Ich muss jetzt was backen.</p>
+<p xml:id="subtitle322" begin="11690800000t" end="11704800000t" region="region0">-Das hilft mir, weißt du?<br/>-Ja, ich weiß.</p>
+<p xml:id="subtitle323" begin="11705600000t" end="11754000000t" region="region0">-Ich kann mich erinnern.<br/>-Ja. Der Verstand ist beschäftigt.</p>
+<p xml:id="subtitle324" begin="11760400000t" end="11791600000t" region="region0">Und das Herz …<br/>das Herz kann durchatmen.</p>
+<p xml:id="subtitle325" begin="11798400000t" end="11828400000t" region="region0">Ah, schau.<br/>Solltest du auch mal versuchen.</p>
+<p xml:id="subtitle326" begin="11829200000t" end="11863600000t" region="region0">-Bitte, ich kann nicht Kuchenbacken.<br/>-Aber irgendwas wirst doch dahaben.</p>
+<p xml:id="subtitle327" begin="11867200000t" end="11880400000t" region="region0">Mehl, Zucker? Schlagobers?</p>
+<p xml:id="subtitle328" begin="11884400000t" end="11939200000t" region="region0">-Eier? Schau, Eier hast. Rum?<br/>-Rum hab ich.</p>
+<p xml:id="subtitle329" begin="11940400000t" end="11966400000t" region="region0">Aber wär's nicht besser,<br/>wir gehen und kaufen eine Torte?</p>
+<p xml:id="subtitle330" begin="11967200000t" end="11996800000t" region="region0">Nein! Nein, ich muss jetzt<br/>was backen.</p>
+<p xml:id="subtitle331" begin="11997600000t" end="12022400000t" region="region0">Ich brauch ein Stück Malakofftorte.</p>
+<p xml:id="subtitle332" begin="12034400000t" end="12061600000t" region="region0">Und ein Glas Eierlikör.<br/>Das sind die besten Therapeuten.</p>
+<p xml:id="subtitle333" begin="12062400000t" end="12088400000t" region="region0">Und satt machen sie auch.<br/>Welcher Therapeut kann das schon?</p>
+<p xml:id="subtitle334" begin="12092400000t" end="12118400000t" region="region0">Wo Kuchen ist …<br/>da ist auch Hoffnung.</p>
+<p xml:id="subtitle335" begin="12126400000t" end="12144400000t" region="region0">-Eierlikör hab ich.<br/>-Her damit.</p>
+<p xml:id="subtitle336" begin="12298400000t" end="12317600000t" region="region0">-Auf die Anna. Prost.<br/>-Prost.</p>
+<p xml:id="subtitle337" begin="12318400000t" end="12329200000t" region="region0">[Schniefen]</p>
+<p xml:id="subtitle338" begin="12354400000t" end="12380400000t" region="region0">Ich werd sie vermissen …<br/>die alte Krätz'n.</p>
+<p xml:id="subtitle339" begin="12395200000t" end="12411600000t" region="region0">[kraftvolles Ausatmen]</p>
+<p xml:id="subtitle340" begin="12426400000t" end="12442800000t" region="region0">[verhaltene Musik]</p>
+<p xml:id="subtitle341" begin="12513600000t" end="12531200000t" region="region0">Was ist denn los, Maria?</p>
+<p xml:id="subtitle342" begin="12595200000t" end="12616000000t" region="region0">Ich weiß nicht,<br/>ob ich jetzt das Richtige tue.</p>
+<p xml:id="subtitle343" begin="12638800000t" end="12658000000t" region="region0">Er hat drauf bestanden,<br/>dass ich's dir nicht sag.</p>
+<p xml:id="subtitle344" begin="12670000000t" end="12683200000t" region="region0">Ich schaff's nicht.</p>
+<p xml:id="subtitle345" begin="12734000000t" end="12752000000t" region="region0">-Schau, da!<br/>-Was ist das?</p>
+<p xml:id="subtitle346" begin="12789600000t" end="12800000000t" region="region0">Da findest du ihn.</p>
+<p xml:id="subtitle347" begin="12823600000t" end="12841200000t" region="region0">-Den Simon?<br/>-Ja.</p>
+<p xml:id="subtitle348" begin="12846000000t" end="12861600000t" region="region0">[angespannte Musik]</p>
+<p xml:id="subtitle349" begin="12880800000t" end="12896800000t" region="region0">[hörbares Ausatmen]</p>
+<p xml:id="subtitle350" begin="12918000000t" end="12942000000t" region="region0">-Danke, Maria!<br/>-Weißt, was?</p>
+<p xml:id="subtitle351" begin="12946400000t" end="12972400000t" region="region0">Jetzt machen wir einen Apfelstrudel.<br/>Äpfel hast genug da.</p>
+<p xml:id="subtitle352" begin="12976800000t" end="12992000000t" region="region0">Der Simon mag den auch so gern.</p>
+<p xml:id="subtitle353" begin="13004400000t" end="13023600000t" region="region0">[ruhige Klaviermusik]</p>
+<p xml:id="subtitle354" begin="13066800000t" end="13079200000t" region="region0">Walli?</p>
+<p xml:id="subtitle355" begin="13099200000t" end="13114000000t" region="region0">[Vogelzwitschern]</p>
+<p xml:id="subtitle356" begin="13139200000t" end="13162400000t" region="region0">[Die Musik wird langsamer.]</p>
+<p xml:id="subtitle357" begin="13200400000t" end="13210400000t" region="region0">Pfffah.</p>
+<p xml:id="subtitle358" begin="13227600000t" end="13247200000t" region="region0">Ma, ich bin so erleichtert.</p>
+<p xml:id="subtitle359" begin="13268800000t" end="13296400000t" region="region0">Weißt du, der Hadi<br/>hat Röntgenbilder gefunden, und …</p>
+<p xml:id="subtitle360" begin="13303200000t" end="13339200000t" region="region0">… er hat sich so lang nicht ge-<br/>meldet, wir haben nichts gehört …</p>
+<p xml:id="subtitle361" begin="13359600000t" end="13378400000t" region="region0">Wir haben dann geglaubt, dass er …</p>
+<p xml:id="subtitle362" begin="13405600000t" end="13421600000t" region="region0">[Schniefen]</p>
+<p xml:id="subtitle363" begin="13441600000t" end="13464000000t" region="region0">Die Fini, die hat so oft<br/>nach ihm gefragt, und …</p>
+<p xml:id="subtitle364" begin="13470400000t" end="13493600000t" region="region0">… ich hab überhaupt nicht gewusst,<br/>was ich ihr sagen soll.</p>
+<p xml:id="subtitle365" begin="13515200000t" end="13534000000t" region="region0">Warum will er uns denn nicht sehen?</p>
+<p xml:id="subtitle366" begin="13547200000t" end="13562000000t" region="region0">[Vogelzwitschern]</p>
+<p xml:id="subtitle367" begin="13610400000t" end="13629600000t" region="region0">Weiß der David eigentlich,<br/>wer sein Vater ist?</p>
+<p xml:id="subtitle368" begin="13630400000t" end="13641200000t" region="region0">M-m.</p>
+<p xml:id="subtitle369" begin="13659200000t" end="13679200000t" region="region0">[Wally] Wir haben einen ganz<br/>schönen Scheiß beieinander.</p>
+<p xml:id="subtitle370" begin="13680000000t" end="13694400000t" region="region0">[Maria] Da ist was dran.</p>
+<p xml:id="subtitle371" begin="13707200000t" end="13725200000t" region="region0">Was machst du eigentlich<br/>die ganze Zeit in Indien?</p>
+<p xml:id="subtitle372" begin="13727600000t" end="13739200000t" region="region0">Backen.</p>
+<p xml:id="subtitle373" begin="13753600000t" end="13786000000t" region="region0">Ich hab vor einiger Zeit eine<br/>kleine Konditorei eröffnet, und …</p>
+<p xml:id="subtitle374" begin="13786800000t" end="13805200000t" region="region0">[Klingeln]</p>
+<p xml:id="subtitle375" begin="13806000000t" end="13831600000t" region="region0">Ah, die Nico. Wart.</p>
+<p xml:id="subtitle376" begin="13865600000t" end="13885200000t" region="region0">[belebte Musik]</p>
+<p xml:id="subtitle377" begin="13945600000t" end="13956400000t" region="region0">Da, hier.</p>
+<p xml:id="subtitle378" begin="13964800000t" end="13981200000t" region="region0">Vanessa Schwarz.</p>
+<p xml:id="subtitle379" begin="13992800000t" end="14023200000t" region="region0">Wegen Drogenhandels<br/>zu zwei Jahren Haft verurteilt.</p>
+<p xml:id="subtitle380" begin="14028400000t" end="14057200000t" region="region0">Die Klage auf Anstiftung zum Mord<br/>wurde abgewiesen.</p>
+<p xml:id="subtitle381" begin="14058000000t" end="14081600000t" region="region0">Wahrscheinlich hat sie da irgendwer<br/>ans Messer geliefert.</p>
+<p xml:id="subtitle382" begin="14090400000t" end="14106800000t" region="region0">-Milo Albertin.<br/>-Wen, bitte?</p>
+<p xml:id="subtitle383" begin="14107600000t" end="14144000000t" region="region0">-Egal. Warum ist sie hier?<br/>-Schizophrenie, hochgradig.</p>
+<p xml:id="subtitle384" begin="14144800000t" end="14154000000t" region="region0">Simuliert sie?</p>
+<p xml:id="subtitle385" begin="14160400000t" end="14188000000t" region="region0">Sie denkt ja, ich denke nein.</p>
+<p xml:id="subtitle386" begin="14202000000t" end="14226000000t" region="region0">-Du kennst diese Frau, stimmt's?<br/>-Peripher.</p>
+<p xml:id="subtitle387" begin="14226800000t" end="14252000000t" region="region0">Und die beiden sind in einem Zimmer?<br/>Ist das dein Ernst?</p>
+<p xml:id="subtitle388" begin="14252800000t" end="14280800000t" region="region0">-Das hab ich nicht ahnen können.<br/>-Warum hast nicht früher angerufen?</p>
+<p xml:id="subtitle389" begin="14281600000t" end="14326800000t" region="region0">-Ja, mein Gott…<br/>-Das ist eine Gefahr für uns.</p>
+<p xml:id="subtitle390" begin="14327600000t" end="14361200000t" region="region0">Was? Geh, bitte, entschuldige,<br/>ich hab das doch jetzt erst erfahren!</p>
+<p xml:id="subtitle391" begin="14362000000t" end="14399200000t" region="region0">-Der Pfleger hat mich informiert.<br/>-Warum? Was macht sie?</p>
+<p xml:id="subtitle392" begin="14406800000t" end="14433200000t" region="region0">Na ja, sie …<br/>horcht die Chantal aus.</p>
+<p xml:id="subtitle393" begin="14442000000t" end="14454800000t" region="region0">Gezielt.</p>
+<p xml:id="subtitle394" begin="14475600000t" end="14508800000t" region="region0">Könnt's sein, dass sie…<br/>diese Leute alle kennt?</p>
+<p xml:id="subtitle395" begin="14518800000t" end="14554800000t" region="region0">Du erwartest jetzt nicht wirklich<br/>eine Antwort auf diese Frage!</p>
+<p xml:id="subtitle396" begin="14560000000t" end="14575600000t" region="region0">Da steckt ein Plan dahinter!</p>
+<p xml:id="subtitle397" begin="14576400000t" end="14594800000t" region="region0">-Was für ein Plan, bitte?<br/>-Was für ein Plan!</p>
+<p xml:id="subtitle398" begin="14595600000t" end="14619600000t" region="region0">Manchmal frag ich mich,<br/>wie du an den Job kommst!</p>
+<p xml:id="subtitle399" begin="14620400000t" end="14659600000t" region="region0">Durch dich. Vergessen?<br/>Als dein Bruder noch Minister war.</p>
+<p xml:id="subtitle400" begin="14664000000t" end="14676400000t" region="region0">Wir haben deinen BH<br/>in einer Hütte gefunden.</p>
+<p xml:id="subtitle401" begin="14678800000t" end="14707200000t" region="region0">Also, lang wird sie hier nicht<br/>bleiben wollen, das steht fest.</p>
+<p xml:id="subtitle402" begin="14711600000t" end="14740800000t" region="region0">Alles, was sie hier erfährt,<br/>wird sie für sich nutzen.</p>
+<p xml:id="subtitle403" begin="14748800000t" end="14781200000t" region="region0">Weil diese Klinik ist nämlich nur<br/>ihr erster Schritt in die Freiheit.</p>
+<p xml:id="subtitle404" begin="14793600000t" end="14823600000t" region="region0">Das kann aber ziemlich gefährlich<br/>für dich werden. Das weißt schon.</p>
+<p xml:id="subtitle405" begin="14844800000t" end="14873600000t" region="region0">Für uns, lieber Stefan, für uns.</p>
+<p xml:id="subtitle406" begin="14874400000t" end="14901200000t" region="region0">Weil du hängst hier<br/>schon längst mittendrin.</p>
+<p xml:id="subtitle407" begin="14911200000t" end="14923200000t" region="region0">So leid es mir tut.</p>
+<p xml:id="subtitle408" begin="14932000000t" end="14942800000t" region="region0">[Schniefen]</p>
+<p xml:id="subtitle409" begin="14964800000t" end="14992400000t" region="region0">[romantische Musik]</p>
+<p xml:id="subtitle410" begin="15047200000t" end="15058000000t" region="region0">Mach schon.</p>
+<p xml:id="subtitle411" begin="15138000000t" end="15152400000t" region="region0">[atmet scharf aus]</p>
+<p xml:id="subtitle412" begin="15156400000t" end="15166000000t" region="region0">Wer zieht aus?</p>
+<p xml:id="subtitle413" begin="15185600000t" end="15215600000t" region="region0">-Und wie, bitte, soll ich das machen?<br/>-Du bist doch Arzt.</p>
+<p xml:id="subtitle414" begin="15216400000t" end="15230400000t" region="region0">Ja, sicher.</p>
+<p xml:id="subtitle415" begin="15244400000t" end="15255600000t" region="region0">Mh!</p>
+<p xml:id="subtitle416" begin="15259600000t" end="15273200000t" region="region0">Sehen wir uns morgen Abend<br/>beim Bowling?</p>
+<p xml:id="subtitle417" begin="15274000000t" end="15294000000t" region="region0">-Ja, klar.<br/>-Kommt die Bettina auch?</p>
+<p xml:id="subtitle418" begin="15296800000t" end="15308000000t" region="region0">[keuchend] Glaub schon.</p>
+<p xml:id="subtitle419" begin="15313200000t" end="15365600000t" region="region0">Gut. Fein, dann … lass sie lieb<br/>grüßen, wenn du sie heute siehst.</p>
+<p xml:id="subtitle420" begin="15370400000t" end="15383200000t" region="region0">Mach ich. Gern.</p>
+<p xml:id="subtitle421" begin="15398800000t" end="15415200000t" region="region0">[jazzig-laszive Musik]</p>
+<p xml:id="subtitle422" begin="15539600000t" end="15550400000t" region="region0">Du bist dran.</p>
+<p xml:id="subtitle423" begin="15552400000t" end="15573200000t" region="region0">[Wally] Mmmh! Hervorragend.</p>
+<p xml:id="subtitle424" begin="15585200000t" end="15604000000t" region="region0">Na, der Hadi macht das richtig gut.</p>
+<p xml:id="subtitle425" begin="15604800000t" end="15634800000t" region="region0">An dem ist ein Kindergärtner<br/>verloren gegangen.</p>
+<p xml:id="subtitle426" begin="15637600000t" end="15661200000t" region="region0">Er hasst es. Er macht das nur,<br/>damit wir Zeit für uns haben.</p>
+<p xml:id="subtitle427" begin="15662000000t" end="15703200000t" region="region0">-Wie lang bleibst du, Maria?<br/>-Äh … bis zum Begräbnis.</p>
+<p xml:id="subtitle428" begin="15709600000t" end="15737600000t" region="region0">Stimmt. Wo tun wir die Anna<br/>überhaupt hin?</p>
+<p xml:id="subtitle429" begin="15738400000t" end="15764000000t" region="region0">Na ja, wahrscheinlich …<br/>zu ihrer Tochter, der Sylvia.</p>
+<p xml:id="subtitle430" begin="15773200000t" end="15788400000t" region="region0">Kommt schon einiges z'samm<br/>mit der Zeit.</p>
+<p xml:id="subtitle431" begin="15789200000t" end="15815200000t" region="region0">Hoffentlich hat der Georg da noch Platz.<br/>Man muss ja vorausdenken.</p>
+<p xml:id="subtitle432" begin="15816000000t" end="15857600000t" region="region0">-Seine Prostata sicher.<br/>-Stimmt, kann man jetzt dazulegen.</p>
+<p xml:id="subtitle433" begin="15905600000t" end="15928000000t" region="region0">[Nicoletta] Du hast uns echt gefehlt.</p>
+<p xml:id="subtitle434" begin="15934800000t" end="15958800000t" region="region0">-Gibt's in Goa auch eine Vorstadt?<br/>-[Maria] Sicher.</p>
+<p xml:id="subtitle435" begin="15959600000t" end="15989600000t" region="region0">Und die Weiber dort sind genauso …<br/>wie ihr zwei.</p>
+<p xml:id="subtitle436" begin="15990400000t" end="16022000000t" region="region0">-Und dumme Kühe gibt's auch.<br/>-Mir fehlt's also an gar nix.</p>
+<p xml:id="subtitle437" begin="16022800000t" end="16048400000t" region="region0">Apropos … deine Urlaubsvertretung.</p>
+<p xml:id="subtitle438" begin="16050800000t" end="16063600000t" region="region0">[angespannte Musik]</p>
+<p xml:id="subtitle439" begin="16067600000t" end="16104000000t" region="region0">Gut, dann … hol ich<br/>noch einen Strudel, oder?</p>
+<p xml:id="subtitle440" begin="16104800000t" end="16113200000t" region="region0">Gute Idee.</p>
+<p xml:id="subtitle441" begin="16132400000t" end="16143600000t" region="region0">Hm.</p>
+<p xml:id="subtitle442" begin="16164800000t" end="16209600000t" region="region0">Also … was mich am meisten kränkt,<br/>ist, dass so viele Leute,</p>
+<p xml:id="subtitle443" begin="16210400000t" end="16251200000t" region="region0">halt auch grad hier in der Runde,<br/>glauben, dass ich lüge.</p>
+<p xml:id="subtitle444" begin="16252000000t" end="16264000000t" region="region0">[Schnauben]</p>
+<p xml:id="subtitle445" begin="16272000000t" end="16301200000t" region="region0">Dass ich was vorspiele,<br/>aber das stimmt nicht.</p>
+<p xml:id="subtitle446" begin="16311200000t" end="16345600000t" region="region0">Manchmal schau ich rüber,<br/>und da ist der Pfleger.</p>
+<p xml:id="subtitle447" begin="16346400000t" end="16361200000t" region="region0">Und dann schau ich weg, und …</p>
+<p xml:id="subtitle448" begin="16376000000t" end="16404400000t" region="region0">… und dann schaut Madame Pompadour<br/>wieder hin …</p>
+<p xml:id="subtitle449" begin="16413600000t" end="16461600000t" region="region0">… und dann steht dort plötzlich …<br/>der König Ludwig.</p>
+<p xml:id="subtitle450" begin="16462400000t" end="16473200000t" region="region0">Ts!</p>
+<p xml:id="subtitle451" begin="16571200000t" end="16596800000t" region="region0">-[Therapeutin] Alles in Ordnung?<br/>-[flüstert] Sie ist da!</p>
+<p xml:id="subtitle452" begin="16601200000t" end="16616400000t" region="region0">Sie hat mich gefunden.</p>
+<p xml:id="subtitle453" begin="16632400000t" end="16643200000t" region="region0">Chantal?</p>
+<p xml:id="subtitle454" begin="16644400000t" end="16656400000t" region="region0">[leises Summen]</p>
+<p xml:id="subtitle455" begin="16670800000t" end="16685600000t" region="region0">-Du hast sie herbestellt.<br/>-Ich?</p>
+<p xml:id="subtitle456" begin="16696400000t" end="16721600000t" region="region0">Du! Du hast mich verraten.<br/>Du hast ihr gesagt, dass ich da bin.</p>
+<p xml:id="subtitle457" begin="16727600000t" end="16750800000t" region="region0">-Hast du sie herbestellt? Hm?<br/>-Was redet sie da?</p>
+<p xml:id="subtitle458" begin="16758000000t" end="16779200000t" region="region0">Theo, am besten,<br/>Sie bringen Chantal auf ihr Zimmer.</p>
+<p xml:id="subtitle459" begin="16780000000t" end="16806000000t" region="region0">Komm.<br/>[panische, spitze Schreie]</p>
+<p xml:id="subtitle460" begin="16806800000t" end="16834000000t" region="region0">-Was hast du jetzt mit ihr angestellt?<br/>-Ich hab nichts gemacht!</p>
+<p xml:id="subtitle461" begin="16834800000t" end="16879600000t" region="region0">Da war die rothaarige Frau.<br/>[Chantal schluchzt.]</p>
+<p xml:id="subtitle462" begin="16880400000t" end="16894000000t" region="region0">[angstvolles Weinen]</p>
+<p xml:id="subtitle463" begin="16901600000t" end="16914400000t" region="region0">[Hadrian] Es trifft ja immer<br/>die Falschen.</p>
+<p xml:id="subtitle464" begin="16916000000t" end="16948400000t" region="region0">Der Georg hat so drauf bestanden,<br/>dass er stirbt, und dann das.</p>
+<p xml:id="subtitle465" begin="16954800000t" end="16990400000t" region="region0">Dann stirbt seine Mutter,<br/>die eh gestraft ist mit dem Sohn …</p>
+<p xml:id="subtitle466" begin="16994000000t" end="17022400000t" region="region0">Fini! Nichts ins Wasser werfen,<br/>Schatz.</p>
+<p xml:id="subtitle467" begin="17023200000t" end="17048800000t" region="region0">Ja, traurig, ich kenn das. Immer nur<br/>die Arschlöcher bleiben am Leben.</p>
+<p xml:id="subtitle468" begin="17051600000t" end="17088000000t" region="region0">-Na gut, manchmal muss man nachhelfen.<br/>-Hast wen im Visier?</p>
+<p xml:id="subtitle469" begin="17095600000t" end="17139200000t" region="region0">-Wie kommst drauf?<br/>-Ich kenn dich ein bissl, ich seh's.</p>
+<p xml:id="subtitle470" begin="17145600000t" end="17180800000t" region="region0">-[Sonia] Nein, du irrst dich.<br/>-Die Polizei war vorhin bei mir.</p>
+<p xml:id="subtitle471" begin="17181600000t" end="17208800000t" region="region0">-Ich glaub, die ahnen was.<br/>-Was genau? Fini!</p>
+<p xml:id="subtitle472" begin="17209600000t" end="17231600000t" region="region0">[Nicoletta] Wir sprechen vom Jörgi,<br/>was Genaues ahnt der nie.</p>
+<p xml:id="subtitle473" begin="17232400000t" end="17252800000t" region="region0">-[Hadrian] Zum letzten Mal jetzt!<br/>- Aber er ahnt halt.</p>
+<p xml:id="subtitle474" begin="17255600000t" end="17294400000t" region="region0">Außerdem hat er sich verplappert.<br/>Die Chantal Haas ist in der Psychiatrie.</p>
+<p xml:id="subtitle475" begin="17295200000t" end="17318800000t" region="region0">-Wer?<br/>-Die Chantal Haas.</p>
+<p xml:id="subtitle476" begin="17319600000t" end="17358000000t" region="region0">Entschuldige. Fini! Aus jetzt,<br/>Schluss! Herrgott noch einmal!</p>
+<p xml:id="subtitle477" begin="17380000000t" end="17390000000t" region="region0">Ja … ts …</p>
+<p xml:id="subtitle478" begin="17404400000t" end="17422000000t" region="region0">Ich hab immer gedacht,<br/>Banker ist ein Scheißjob.</p>
+<p xml:id="subtitle479" begin="17422800000t" end="17467200000t" region="region0">Aber Kindergärtner ist die Hölle!<br/>Der weiß, was er leistet.</p>
+<p xml:id="subtitle480" begin="17468000000t" end="17478800000t" region="region0">Der weiß es.</p>
+<p xml:id="subtitle481" begin="17485600000t" end="17519600000t" region="region0">Entschuldige. Fini! Aus jetzt,<br/>Schluss! Herrgott noch einmal!</p>
+<p xml:id="subtitle482" begin="17523600000t" end="17550400000t" region="region0">Ich weiß nicht. Es kann nicht<br/>schaden, mit ihr zu reden.</p>
+<p xml:id="subtitle483" begin="17551200000t" end="17572000000t" region="region0">-Weißt du, in welcher Klinik sie ist?<br/>-Naa.</p>
+<p xml:id="subtitle484" begin="17572800000t" end="17607200000t" region="region0">Das find ich raus.<br/>Bin nämlich reif für die Klapsmühle.</p>
+<p xml:id="subtitle485" begin="17632800000t" end="17647200000t" region="region0">Also … na …</p>
+<p xml:id="subtitle486" begin="17673600000t" end="17685200000t" region="region0">Wo ist denn der David?</p>
+<p xml:id="subtitle487" begin="17693200000t" end="17709600000t" region="region0">[mysteriöse Musik]</p>
+<p xml:id="subtitle488" begin="17726400000t" end="17738800000t" region="region0">[Seufzen]</p>
+<p xml:id="subtitle489" begin="17858000000t" end="17877200000t" region="region0">-Hallo.<br/>-Hallo.</p>
+<p xml:id="subtitle490" begin="17958800000t" end="17971600000t" region="region0">[belebte Musik]</p>
+<p xml:id="subtitle491" begin="18126800000t" end="18138000000t" region="region0">[Timo] Hallo?</p>
+<p xml:id="subtitle492" begin="18158800000t" end="18184800000t" region="region0">Bin ich der Einzige,<br/>der sich um die Kinder kümmert?</p>
+<p xml:id="subtitle493" begin="18185600000t" end="18208800000t" region="region0">Nein, der Einzige, den sie nerven.</p>
+<p xml:id="subtitle494" begin="18246800000t" end="18258000000t" region="region0">Da ist er ja.</p>
+<p xml:id="subtitle495" begin="18258800000t" end="18290800000t" region="region0">Ich hoffe, es ist okay, ich hab<br/>einen Freund gebeten, mich abzuholen.</p>
+<p xml:id="subtitle496" begin="18302800000t" end="18316800000t" region="region0">[Vogelrufe]</p>
+<p xml:id="subtitle497" begin="18348400000t" end="18362800000t" region="region0">[überraschter Laut]</p>
+<p xml:id="subtitle498" begin="18408400000t" end="18421200000t" region="region0">Was ist denn los?</p>
+<p xml:id="subtitle499" begin="18472000000t" end="18482800000t" region="region0">Entschuldigung.</p>
+<p xml:id="subtitle500" begin="18526000000t" end="18536400000t" region="region0">[Vogelrufe]</p>
+<p xml:id="subtitle501" begin="18543600000t" end="18570000000t" region="region0">Was … was ist denn?<br/>Was habt ihr denn?</p>
+<p xml:id="subtitle502" begin="18578400000t" end="18590400000t" region="region0">[fernes Bellen]</p>
+<p xml:id="subtitle503" begin="18636400000t" end="18661600000t" region="region0">Ich hab gehofft, dass du dich<br/>wenigstens mal bei mir meldest.</p>
+<p xml:id="subtitle504" begin="18672800000t" end="18688800000t" region="region0">Immerhin bin ich sein Vater.</p>
+<p xml:id="subtitle505" begin="18701600000t" end="18726400000t" region="region0">Anna hat mir gesagt, dass du nichts<br/>mehr mit mir zu tun haben willst.</p>
+<p xml:id="subtitle506" begin="18727200000t" end="18772400000t" region="region0">Was? Wart mal … Sie …<br/>sie hat mich angefleht,</p>
+<p xml:id="subtitle507" begin="18773200000t" end="18792400000t" region="region0">dass ich euch in Ruhe lasse<br/>und mich nicht einmische.</p>
+<p xml:id="subtitle508" begin="18796000000t" end="18817200000t" region="region0">Ich hab nur aus Liebe<br/>zu unserem Sohn zugestimmt.</p>
+<p xml:id="subtitle509" begin="18830000000t" end="18870400000t" region="region0">Es ist mir nicht leicht gefallen.<br/>Ich wollt nicht, dass du gehst.</p>
+<p xml:id="subtitle510" begin="18892800000t" end="18917600000t" region="region0">Mir hat sie das ganz anders erzählt.</p>
+<p xml:id="subtitle511" begin="18941600000t" end="18960400000t" region="region0">Dann hoffen wir mal,<br/>dass sie es gut gemeint hat.</p>
+<p xml:id="subtitle512" begin="18962400000t" end="18982000000t" region="region0">-Wir können sie nicht mehr fragen.<br/>-Wieso?</p>
+<p xml:id="subtitle513" begin="18983600000t" end="18996000000t" region="region0">Sie ist gestorben.</p>
+<p xml:id="subtitle514" begin="19019600000t" end="19032000000t" region="region0">Tut mir leid.</p>
+<p xml:id="subtitle515" begin="19098800000t" end="19116800000t" region="region0">Arbeitest du noch in dem Gewerbe?</p>
+<p xml:id="subtitle516" begin="19125200000t" end="19133600000t" region="region0">Ich … äh …</p>
+<p xml:id="subtitle517" begin="19144800000t" end="19173600000t" region="region0">-Nicht wirklich.<br/>-Gut.</p>
+<p xml:id="subtitle518" begin="19182000000t" end="19193600000t" region="region0">[tonlos] Gut.</p>
+<p xml:id="subtitle519" begin="19205200000t" end="19222800000t" region="region0">Ja, wir … wir müssen …</p>
+<p xml:id="subtitle520" begin="19230400000t" end="19253200000t" region="region0">… nach dem Begräbnis<br/>wieder zurück nach Indien.</p>
+<p xml:id="subtitle521" begin="19260400000t" end="19281200000t" region="region0">Aber vielleicht magst du uns<br/>ja mal besuchen kommen.</p>
+<p xml:id="subtitle522" begin="19340400000t" end="19356400000t" region="region0">Gern … ja.</p>
+<p xml:id="subtitle523" begin="19367600000t" end="19398400000t" region="region0">Warte. Warte, ich …<br/>will dir noch jemanden vorstellen.</p>
+<p xml:id="subtitle524" begin="19406400000t" end="19417600000t" region="region0">Ja?</p>
+<p xml:id="subtitle525" begin="19432400000t" end="19448000000t" region="region0">David … Herz?</p>
+<p xml:id="subtitle526" begin="19479200000t" end="19493600000t" region="region0">Komm, mein Spatz.</p>
+<p xml:id="subtitle527" begin="19504800000t" end="19518000000t" region="region0">Schau mal, mein Herz.</p>
+<p xml:id="subtitle528" begin="19527600000t" end="19554800000t" region="region0">Ich … ich möchte dir<br/>jemanden vorstellen.</p>
+<p xml:id="subtitle529" begin="19571600000t" end="19588400000t" region="region0">[Sie lacht.]</p>
+<p xml:id="subtitle530" begin="19589200000t" end="19608800000t" region="region0">Geht das da nicht auf grade?</p>
+<p xml:id="subtitle531" begin="19609600000t" end="19634400000t" region="region0">Vielleicht kann das …<br/>vielleicht kann das …</p>
+<p xml:id="subtitle532" begin="19640400000t" end="19650800000t" region="region0">Ja.</p>
+<p xml:id="subtitle533" begin="19665600000t" end="19680800000t" region="region0">[gefühlvolle Musik]</p>
+<p xml:id="subtitle534" begin="19726800000t" end="19766800000t" region="region0">So, schau. Jetzt legst dich einfach<br/>ein bissl nieder. Komm!</p>
+<p xml:id="subtitle535" begin="19780400000t" end="19792400000t" region="region0">Vorsicht.</p>
+<p xml:id="subtitle536" begin="19822400000t" end="19847200000t" region="region0">[ruhige, rhythmische Klaviermusik]</p>
+<p xml:id="subtitle537" begin="19878800000t" end="19902800000t" region="region0">Hier … damit du schlafen kannst.</p>
+<p xml:id="subtitle538" begin="19909600000t" end="19922800000t" region="region0">Das beruhigt dich.</p>
+<p xml:id="subtitle539" begin="19931600000t" end="19949200000t" region="region0">[pulsierender Rhythmus]</p>
+<p xml:id="subtitle540" begin="19977600000t" end="20007200000t" region="region0">Ja … es wird alles wieder gut.</p>
+<p xml:id="subtitle541" begin="20022000000t" end="20038400000t" region="region0">Ich komm später noch einmal.</p>
+<p xml:id="subtitle542" begin="20094400000t" end="20112000000t" region="region0">[ferne, hohe Schreie]</p>
+<p xml:id="subtitle543" begin="20119600000t" end="20146800000t" region="region0">Ah, Herr Theo,<br/>weil ich Sie gerade sehe …</p>
+<p xml:id="subtitle544" begin="20147600000t" end="20169200000t" region="region0">-Sie haben das Hosentürl offen.<br/>-Was, wirklich?</p>
+<p xml:id="subtitle545" begin="20172400000t" end="20192400000t" region="region0">Erhöhen Sie doch bitte<br/>die Medikamentierung</p>
+<p xml:id="subtitle546" begin="20193200000t" end="20216400000t" region="region0">der Patientin Schwarz<br/>auf 500 Milligramm,</p>
+<p xml:id="subtitle547" begin="20222400000t" end="20250400000t" region="region0">und verlegen S' die Patientin morgen<br/>auf Station vier, ja?</p>
+<p xml:id="subtitle548" begin="20251200000t" end="20281600000t" region="region0">Wie Sie wünschen,<br/>Sie sind der Doktor, Herr Doktor.</p>
+<p xml:id="subtitle549" begin="20282400000t" end="20304000000t" region="region0">Genau so ist es, nicht wahr?</p>
+<p xml:id="subtitle550" begin="20321600000t" end="20334000000t" region="region0">[Türknallen]</p>
+<p xml:id="subtitle551" begin="20430000000t" end="20445600000t" region="region0">[zittriges Atmen]</p>
+<p xml:id="subtitle552" begin="20506399999t" end="20520000000t" region="region0">[angespannte Musik]</p>
+<p xml:id="subtitle553" begin="20602800000t" end="20618000000t" region="region0">[ferne Schreie]</p>
+<p xml:id="subtitle554" begin="20652800000t" end="20668400000t" region="region0">[ernste Musik]</p>
+<p xml:id="subtitle555" begin="20762399999t" end="20776000000t" region="region0">[Türschlagen]</p>
+<p xml:id="subtitle556" begin="20818000000t" end="20835600000t" region="region0">[leise Stimmen draußen]</p>
+<p xml:id="subtitle557" begin="20880400000t" end="20913200000t" region="region0">[scherzhafter Schrecklaut draußen,<br/>Türgeräusch]</p>
+<p xml:id="subtitle558" begin="21004800000t" end="21040800000t" region="region0">Da schau her.<br/>Magst vielleicht meine Ration haben?</p>
+<p xml:id="subtitle559" begin="21057200000t" end="21083200000t" region="region0">Mhm. Keine Ursache, gern geschehen.</p>
+<p xml:id="subtitle560" begin="21121200000t" end="21132800000t" region="region0">[Klimpern]</p>
+<p xml:id="subtitle561" begin="21133600000t" end="21172400000t" region="region0">Hier… wäre die Friedenswald-Aschenurne.</p>
+<p xml:id="subtitle562" begin="21173200000t" end="21214800000t" region="region0">Zu 76,7 Prozent biologisch abbaubar.</p>
+<p xml:id="subtitle563" begin="21215600000t" end="21235600000t" region="region0">Vegan und nachhaltig.</p>
+<p xml:id="subtitle564" begin="21236400000t" end="21271600000t" region="region0">Zehn Prozent des Kaufpreises<br/>spenden wir für den Regenwald.</p>
+<p xml:id="subtitle565" begin="21278000000t" end="21310800000t" region="region0">Die Urne ist ein reines<br/>Fair-Trade-Produkt,</p>
+<p xml:id="subtitle566" begin="21311600000t" end="21349600000t" region="region0">das die Gleichstellung von Männern<br/>und Frauen in Guatemala fördert.</p>
+<p xml:id="subtitle567" begin="21350400000t" end="21367600000t" region="region0">Wir haben sehr gute Erfahrungen</p>
+<p xml:id="subtitle568" begin="21368400000t" end="21386800000t" region="region0">-mit dieser Urne gemacht.<br/>-[Türklopfen]</p>
+<p xml:id="subtitle569" begin="21387600000t" end="21398400000t" region="region0">Ah, Sie sind schon da.</p>
+<p xml:id="subtitle570" begin="21399200000t" end="21451200000t" region="region0">Ihre Mutter und Schwiegermama<br/>wird sich darin sehr wohl fühlen.</p>
+<p xml:id="subtitle571" begin="21452000000t" end="21480800000t" region="region0">Sie werden garantiert<br/>keine Beschwerden hören.</p>
+<p xml:id="subtitle572" begin="21481600000t" end="21529600000t" region="region0">Haben Sie nichts vom Hrdlicka?<br/>Also, so in groben Stein gehauen?</p>
+<p xml:id="subtitle573" begin="21530400000t" end="21552800000t" region="region0">Eine Urne wie ein Mahnmal.</p>
+<p xml:id="subtitle574" begin="21557600000t" end="21592000000t" region="region0">Oder vom Attersee.<br/>Also, ich mein jetzt den Künstler.</p>
+<p xml:id="subtitle575" begin="21592800000t" end="21631600000t" region="region0">Nicht das Gewässer.<br/>Otto Muehl? Hermann Nitsch?</p>
+<p xml:id="subtitle576" begin="21632400000t" end="21660000000t" region="region0">[Er stammelt] Pardon.</p>
+<p xml:id="subtitle577" begin="21670800000t" end="21689600000t" region="region0">Ich… bin überfordert.</p>
+<p xml:id="subtitle578" begin="21690400000t" end="21701600000t" region="region0">Georg, lass gut sein, ja?</p>
+<p xml:id="subtitle579" begin="21702400000t" end="21735200000t" region="region0">Aber wenigstens eine Inschrift<br/>vom Wolfi Bauer.</p>
+<p xml:id="subtitle580" begin="21743200000t" end="21767200000t" region="region0">-Pardon?<br/>-Das sagt Ihnen auch nichts?</p>
+<p xml:id="subtitle581" begin="21768000000t" end="21788800000t" region="region0">Sag einmal, wer ist der Kerl?<br/>Der weiß ja gar nichts!</p>
+<p xml:id="subtitle582" begin="21789600000t" end="21798000000t" region="region0">Georg!</p>
+<p xml:id="subtitle583" begin="21799200000t" end="21840000000t" region="region0">Der Herr soll wissen, wen wir<br/>begraben! Das ist nicht irgendwer!</p>
+<p xml:id="subtitle584" begin="21840800000t" end="21872400000t" region="region0">Hören Sie, meine Mutter war eine Muse…</p>
+<p xml:id="subtitle585" begin="21873200000t" end="21892000000t" region="region0">-[mehrfaches Knacken]<br/>-Georg, bitte.</p>
+<p xml:id="subtitle586" begin="21892800000t" end="21901200000t" region="region0">[Schmerzlaute]</p>
+<p xml:id="subtitle587" begin="21902400000t" end="21930800000t" region="region0">Meine Mama war die Inspirationsquelle</p>
+<p xml:id="subtitle588" begin="21931600000t" end="21961600000t" region="region0">für eine ganze Generation<br/>österreichischer Künstler.</p>
+<p xml:id="subtitle589" begin="21962400000t" end="21992800000t" region="region0">Ohne meine Mama<br/>hätte es keine Wiener Schule,</p>
+<p xml:id="subtitle590" begin="21993600000t" end="22034000000t" region="region0">keinen Wiener Aktionismus, keinen<br/>Fantastischen Realismus gegeben.</p>
+<p xml:id="subtitle591" begin="22034800000t" end="22063200000t" region="region0">Und schon überhaupt kein<br/>&quot;Magic Afternoon&quot;.</p>
+<p xml:id="subtitle592" begin="22064000000t" end="22092800000t" region="region0">Und jetzt kommen Sie<br/>ignoranter Pompfüneberer daher</p>
+<p xml:id="subtitle593" begin="22093600000t" end="22134400000t" region="region0">und wollen meine Mama in dem veganen<br/>Zirbenholz-Plumpsklo begraben?</p>
+<p xml:id="subtitle594" begin="22135200000t" end="22158400000t" region="region0">-Sicher nicht!<br/>-[Er brummt]</p>
+<p xml:id="subtitle595" begin="22159200000t" end="22184400000t" region="region0">[trippelnde Musik]</p>
+<p xml:id="subtitle596" begin="22219200000t" end="22236800000t" region="region0">-[Türschlagen]<br/>-Au!</p>
+<p xml:id="subtitle597" begin="22237600000t" end="22249600000t" region="region0">[Ächzen]</p>
+<p xml:id="subtitle598" begin="22294400000t" end="22310800000t" region="region0">[angespannte Musik]</p>
+<p xml:id="subtitle599" begin="22322400000t" end="22341600000t" region="region0">-[Georg] Entschuldige bitte.<br/>-Wofür?</p>
+<p xml:id="subtitle600" begin="22342400000t" end="22370800000t" region="region0">-Na ja, für den Ausbruch.<br/>-Das hab ich mir oft gewünscht!</p>
+<p xml:id="subtitle601" begin="22371600000t" end="22380000000t" region="region0">Was?</p>
+<p xml:id="subtitle602" begin="22380800000t" end="22410800000t" region="region0">Wenn du dich nur einmal<br/>so für mich eingesetzt hättest,</p>
+<p xml:id="subtitle603" begin="22416800000t" end="22434800000t" region="region0">hätt ich dich vielleicht<br/>nicht verlassen.</p>
+<p xml:id="subtitle604" begin="22453200000t" end="22476800000t" region="region0">Aber bei dir muss man erst sterben,<br/>dass man was wert ist.</p>
+<p xml:id="subtitle605" begin="22477600000t" end="22524400000t" region="region0">Da ist wahrscheinlich was dran.<br/>Na, die österreichische Seele.</p>
+<p xml:id="subtitle606" begin="22533600000t" end="22555600000t" region="region0">Der Zentralfriedhof<br/>kann ein Lied davon singen.</p>
+<p xml:id="subtitle607" begin="22570800000t" end="22592800000t" region="region0">Aber vielleicht<br/>kann ich mich ja noch ändern.</p>
+<p xml:id="subtitle608" begin="22593600000t" end="22617200000t" region="region0">-Glaubst du?<br/>-Na ja, was glaubst du?</p>
+<p xml:id="subtitle609" begin="22618000000t" end="22643200000t" region="region0">-Wie viel Chancen kriegt man denn?<br/>-Na …</p>
+<p xml:id="subtitle610" begin="22644000000t" end="22681600000t" region="region0">-… die Prostata hast schon verspielt.<br/>-[undeutlich] Ja.</p>
+<p xml:id="subtitle611" begin="22696000000t" end="22709200000t" region="region0">Nicht nur die.</p>
+<p xml:id="subtitle612" begin="22734400000t" end="22757600000t" region="region0">Ich muss in letzter Zeit so oft<br/>an unseren Buben denken.</p>
+<p xml:id="subtitle613" begin="22776000000t" end="22818800000t" region="region0">Weißt, ich hab dem Simon nie gesagt,<br/>dass ich gut find, was er macht.</p>
+<p xml:id="subtitle614" begin="22830800000t" end="22843200000t" region="region0">Dass ich stolz auf ihn bin.</p>
+<p xml:id="subtitle615" begin="22862800000t" end="22877200000t" region="region0">Oder dass ich ihn liebhab.</p>
+<p xml:id="subtitle616" begin="22916000000t" end="22944800000t" region="region0">Wie soll das ein Gefühlsinvalide wie<br/>ich auch über die Lippen bringen?</p>
+<p xml:id="subtitle617" begin="22958800000t" end="22990400000t" region="region0">Und jetzt wüsst ich wirklich viele<br/>Sachen, die ich ihm sagen möcht.</p>
+<p xml:id="subtitle618" begin="23004400000t" end="23026000000t" region="region0">-Und jetzt ist es zu spät.<br/>-Nein.</p>
+<p xml:id="subtitle619" begin="23026800000t" end="23050000000t" region="region0">-Vielleicht nicht.<br/>-Wieso, wie meinst du das?</p>
+<p xml:id="subtitle620" begin="23050800000t" end="23071600000t" region="region0">Simon ist tot,<br/>da bin ich mir ganz sicher.</p>
+<p xml:id="subtitle621" begin="23083600000t" end="23101200000t" region="region0">Vielleicht ist es nicht zu spät.</p>
+<p xml:id="subtitle622" begin="23102000000t" end="23131200000t" region="region0">Vielleicht hast du deine Chancen<br/>noch nicht verspielt.</p>
+<p xml:id="subtitle623" begin="23138400000t" end="23175600000t" region="region0">-So, und jetzt essen wir Kuchen.<br/>-Ja. Malakoff bitte.</p>
+<p xml:id="subtitle624" begin="23176400000t" end="23186800000t" region="region0">Gern.</p>
+<p xml:id="subtitle625" begin="23232000000t" end="23250800000t" region="region0">[verstörende Musik]</p>
+<p xml:id="subtitle626" begin="23360000000t" end="23388800000t" region="region0">[leise] Jetzt weiß ich,<br/>woher ich dich kenne.</p>
+<p xml:id="subtitle627" begin="23399600000t" end="23414800000t" region="region0">[belebte Musik]</p>
+<p xml:id="subtitle628" begin="23564000000t" end="23576800000t" region="region0">[Klimpern]</p>
+<p xml:id="subtitle629" begin="23690800000t" end="23710400000t" region="region0">[Die Musik verklingt.]</p>
+<p xml:id="subtitle630" begin="23723200000t" end="23740000000t" region="region0">[erstickte Laute]</p>
+<p xml:id="subtitle631" begin="23774000000t" end="23790000000t" region="region0">[dumpfe Schreie]</p>
+<p xml:id="subtitle632" begin="23839200000t" end="23850400000t" region="region0">[Theo] Hey!</p>
+<p xml:id="subtitle633" begin="23861600000t" end="23880400000t" region="region0">Hey, hey, hey!</p>
+<p xml:id="subtitle634" begin="23888800000t" end="23907600000t" region="region0">[gieriges Luftholen]</p>
+<p xml:id="subtitle635" begin="23911200000t" end="23937200000t" region="region0">[Theo] Chantal. Ganz ruhig. Hey.</p>
+<p xml:id="subtitle636" begin="23961200000t" end="23989200000t" region="region0">Ein Wort drüber, und ich helf dir<br/>beim nächsten Mal nicht mehr.</p>
+<p xml:id="subtitle637" begin="24011600000t" end="24028800000t" region="region0">[trippelnde Musik]</p>
+<p xml:id="subtitle638" begin="24086400000t" end="24096400000t" region="region0">[Türschlagen]</p>
+<p xml:id="subtitle639" begin="24156400000t" end="24172400000t" region="region0">[Die Musik endet.]</p>
+<p xml:id="subtitle640" begin="24184800000t" end="24205200000t" region="region0">[eindringliche Streichmusik]</p>
+<p xml:id="subtitle641" begin="24226800000t" end="24238000000t" region="region0">Post.</p>
+<p xml:id="subtitle642" begin="24249600000t" end="24261600000t" region="region0">War das an mich adressiert?</p>
+<p xml:id="subtitle643" begin="24262400000t" end="24292800000t" region="region0">Ja, 'tschuldigung. War klar, dass das<br/>wieder vom großen Unbekannten ist.</p>
+<p xml:id="subtitle644" begin="24299200000t" end="24321200000t" region="region0">-Trotzdem.<br/>-Was ist los, Spatzl?</p>
+<p xml:id="subtitle645" begin="24326000000t" end="24346400000t" region="region0">Haben wir auf einmal Geheimnisse<br/>voreinander?</p>
+<p xml:id="subtitle646" begin="24363200000t" end="24380000000t" region="region0">[unheilvolle Musik]</p>
+<p xml:id="subtitle647" begin="24536000000t" end="24552400000t" region="region0">Wieso krieg ich das?</p>
+<p xml:id="subtitle648" begin="24554400000t" end="24587600000t" region="region0">Ich mein … wenn, dann müsst ich<br/>doch so was über mich kriegen.</p>
+<p xml:id="subtitle649" begin="24588400000t" end="24604400000t" region="region0">Schon, ja.</p>
+<p xml:id="subtitle650" begin="24637200000t" end="24655600000t" region="region0">Wir sollten langsam. Komm.</p>
+<p xml:id="subtitle651" begin="24743200000t" end="24755200000t" region="region1">[Türschlagen]</p>
+<p xml:id="subtitle652" begin="24768400000t" end="24782800000t" region="region0">[Quietschen]</p>
+<p xml:id="subtitle653" begin="24790800000t" end="24810400000t" region="region0">-[Anatol] Hinten oder vorn?<br/>-Hinten.</p>
+<p xml:id="subtitle654" begin="24840800000t" end="24857200000t" region="region0">[rastlose Musik]</p>
+<p xml:id="subtitle655" begin="25000400000t" end="25016800000t" region="region0">[unheilvolle Musik]</p>
+<p xml:id="subtitle656" begin="25142800000t" end="25160000000t" region="region0">[hörbares Ausatmen]</p>
+<p xml:id="subtitle657" begin="25262800000t" end="25273200000t" region="region0">Wow!</p>
+<p xml:id="subtitle658" begin="25282000000t" end="25301200000t" region="region0">Trägt man das in Indien<br/>bei solchen Anlässen?</p>
+<p xml:id="subtitle659" begin="25302000000t" end="25316000000t" region="region0">-Mhm.<br/>-Aber …</p>
+<p xml:id="subtitle660" begin="25316800000t" end="25336000000t" region="region0">… du bist nicht<br/>zum Hinduismus übergetreten.</p>
+<p xml:id="subtitle661" begin="25336800000t" end="25374400000t" region="region0">Doch. Ja, ich …<br/>find's irgendwie tröstlicher.</p>
+<p xml:id="subtitle662" begin="25378400000t" end="25404000000t" region="region0">Bei uns bedeutet der Tod,<br/>ähnlich wie im Buddhismus,</p>
+<p xml:id="subtitle663" begin="25404800000t" end="25428000000t" region="region0">nicht Verzweiflung,<br/>sondern Befreiung.</p>
+<p xml:id="subtitle664" begin="25439200000t" end="25467200000t" region="region0">Er ist immer ein … Übergang<br/>in eine neue Existenzform.</p>
+<p xml:id="subtitle665" begin="25468000000t" end="25487600000t" region="region0">-Hm.<br/>-Mit deinem Handeln in diesem Leben</p>
+<p xml:id="subtitle666" begin="25488400000t" end="25528000000t" region="region0">bestimmst du selbst die Qualität<br/>und den Wohlstand im künftigen.</p>
+<p xml:id="subtitle667" begin="25535200000t" end="25561600000t" region="region0">-Sag das einmal der Nico.<br/>-Ja …</p>
+<p xml:id="subtitle668" begin="25563200000t" end="25588000000t" region="region0">Also, wir machen das so,<br/>ich kann's dir ja gern sagen,</p>
+<p xml:id="subtitle669" begin="25588800000t" end="25640400000t" region="region0">wir verbessern unser Karma durch …<br/>gute Taten … Opferrituale …</p>
+<p xml:id="subtitle670" begin="25650000000t" end="25670000000t" region="region0">-… und Askese.<br/>-Aha.</p>
+<p xml:id="subtitle671" begin="25679600000t" end="25714800000t" region="region0">Und wie kriegst du das in Einklang<br/>mit deiner Malakofftorte?</p>
+<p xml:id="subtitle672" begin="25721200000t" end="25740400000t" region="region0">Nobody is perfect.<br/>[Walli lacht.]</p>
+<p xml:id="subtitle673" begin="25747600000t" end="25763600000t" region="region0">Ach Gott! Pfff.</p>
+<p xml:id="subtitle674" begin="25764400000t" end="25796800000t" region="region0">Ich möcht auf kein Begräbnis mehr,<br/>höchstens auf mein eigenes.</p>
+<p xml:id="subtitle675" begin="25802800000t" end="25820000000t" region="region0">Da tragen sie mich wenigstens.</p>
+<p xml:id="subtitle676" begin="25832000000t" end="25850000000t" region="region0">[heitere Melodie]</p>
+<p xml:id="subtitle677" begin="25970800000t" end="25981600000t" region="region0">Wow.</p>
+<p xml:id="subtitle678" begin="26001200000t" end="26018400000t" region="region0">Indisch, hm?<br/>[Räuspern]</p>
+<p xml:id="subtitle679" begin="26029600000t" end="26047200000t" region="region0">[heitere Melodie]</p>
+<p xml:id="subtitle680" begin="26060800000t" end="26080000000t" region="region0">Das ist, äh …<br/>mit der Post gekommen.</p>
+<p xml:id="subtitle681" begin="26080800000t" end="26105200000t" region="region0">-Eine für dich, eine für mich.<br/>-Was ist das?</p>
+<p xml:id="subtitle682" begin="26106000000t" end="26123600000t" region="region0">[Hadrian] Ich hab keine Ahnung.<br/>Was soll das?</p>
+<p xml:id="subtitle683" begin="26158000000t" end="26179600000t" region="region0">-Gemma?<br/>-Äh … ja!</p>
+<p xml:id="subtitle684" begin="26186400000t" end="26202400000t" region="region0">Natürlich. Ähm …</p>
+<p xml:id="subtitle685" begin="26211600000t" end="26229200000t" region="region0">[leise] Wir reden später.</p>
+<p xml:id="subtitle686" begin="26259600000t" end="26279600000t" region="region0">[Vogelzwitschern]</p>
+<p xml:id="subtitle687" begin="26300800000t" end="26315200000t" region="region0">[ruhige Musik]</p>
+<p xml:id="subtitle688" begin="26316000000t" end="26356800000t" region="region0">[Pfarrer] Begleite mit deinem Segen<br/>den Menschen, der nun von uns geht.</p>
+<p xml:id="subtitle689" begin="26357600000t" end="26388400000t" region="region0">Sei bei ihm im unbekannten Land.</p>
+<p xml:id="subtitle690" begin="26395600000t" end="26427200000t" region="region0">Begleite mit deinem Segen uns,<br/>die wir zurückbleiben.</p>
+<p xml:id="subtitle691" begin="26436400000t" end="26462800000t" region="region0">Sei bei uns in unbekannter Zukunft.</p>
+<p xml:id="subtitle692" begin="26464800000t" end="26480400000t" region="region0">[langsame Musik]</p>
+<p xml:id="subtitle693" begin="26481200000t" end="26497200000t" region="region0">[Pfarrer] Neue Wege liegen dort, in dir.</p>
+<p xml:id="subtitle694" begin="26498000000t" end="26542800000t" region="region0">Getrennt sind diese Wege<br/>durch unüberwindliche Grenzen …</p>
+<p xml:id="subtitle695" begin="26543600000t" end="26573600000t" region="region0">Ist das nicht die Pia,<br/>die Tochter vom Hadi?</p>
+<p xml:id="subtitle696" begin="26574400000t" end="26609600000t" region="region0">[Pfarrer] Dein Segen leitet uns.<br/>So können wir diese Wege gehen.</p>
+<p xml:id="subtitle697" begin="26625200000t" end="26656400000t" region="region0">Scheinbar getrennt für immer<br/>sind diese Wege.</p>
+<p xml:id="subtitle698" begin="26657200000t" end="26670800000t" region="region0">[ruhige Musik]</p>
+<p xml:id="subtitle699" begin="26671600000t" end="26685600000t" region="region0">Doch dein Segen verbindet.</p>
+<p xml:id="subtitle700" begin="26697600000t" end="26716800000t" region="region0">So werden wir uns nicht verlieren.</p>
+<p xml:id="subtitle701" begin="26720800000t" end="26742800000t" region="region0">Und die Wege<br/>werden uns wieder zusammenführen.</p>
+<p xml:id="subtitle702" begin="26743600000t" end="26762800000t" region="region0">Wir werden uns treffen am selben Ziel.</p>
+<p xml:id="subtitle703" begin="26763600000t" end="26772000000t" region="region0">[lautlos]</p>
+<p xml:id="subtitle704" begin="26772800000t" end="26799200000t" region="region0">Segne uns, du allmächtige Kraft,<br/>die größer ist</p>
+<p xml:id="subtitle705" begin="26800000000t" end="26832000000t" region="region0">als unser kleiner<br/>menschlicher Verstand. Amen.</p>
+<p xml:id="subtitle706" begin="26834800000t" end="26844800000t" region="region0">[alle] Amen!</p>
+<p xml:id="subtitle707" begin="26871600000t" end="26889600000t" region="region0">Hast du eine junge Frau gesehen,<br/>so mit Locken?</p>
+<p xml:id="subtitle708" begin="26898000000t" end="26912000000t" region="region0">Grad ins Auto eingestiegen.</p>
+<p xml:id="subtitle709" begin="26912800000t" end="26948400000t" region="region0">[bewegte Musik]</p>
+<p xml:id="subtitle710" begin="26986000000t" end="26996400000t" region="region0">Pia!</p>
+<p xml:id="subtitle711" begin="27041200000t" end="27067600000t" region="region0">[treibende Musik]</p>
+<p xml:id="subtitle712" begin="27131200000t" end="27150800000t" region="region0">Gehts schon mal vor,<br/>ich komm gleich nach.</p>
+<p xml:id="subtitle713" begin="27212400000t" end="27227600000t" region="region0">[Krähenkrächzen]</p>
+<p xml:id="subtitle714" begin="27231600000t" end="27248000000t" region="region0">[Kirchenglocken]</p>
+<p xml:id="subtitle715" begin="27248800000t" end="27264800000t" region="region0">[Schritte nähern sich an]</p>
+<p xml:id="subtitle716" begin="27278000000t" end="27305600000t" region="region0">-Ich hab dich schon vermisst.<br/>-Jakob!</p>
+<p xml:id="subtitle717" begin="27315600000t" end="27346400000t" region="region0">Schön, dich zu sehen.<br/>Ich hab dich auch vermisst.</p>
+<p xml:id="subtitle718" begin="27347200000t" end="27361600000t" region="region0">Ist wer gestorben?</p>
+<p xml:id="subtitle719" begin="27378400000t" end="27399600000t" region="region0">Du, Nico, wir wollten doch<br/>was trinken gehen.</p>
+<p xml:id="subtitle720" begin="27400400000t" end="27409200000t" region="region0">[Tasche schlägt auf]</p>
+<p xml:id="subtitle721" begin="27419600000t" end="27443200000t" region="region0">[Kirchenglocken, Krähenkrächzen]</p>
+<p xml:id="subtitle722" begin="27542800000t" end="27554000000t" region="region0">Was war das jetzt?</p>
+<p xml:id="subtitle723" begin="27583200000t" end="27619600000t" region="region0">-Ich weiß nicht, was du meinst.<br/>-Was zwischen euch abgegangen ist.</p>
+<p xml:id="subtitle724" begin="27620400000t" end="27646000000t" region="region0">-Das war Joschis Bruder.<br/>-Nicht zu übersehen.</p>
+<p xml:id="subtitle725" begin="27646800000t" end="27667200000t" region="region0">Du hast gesagt,<br/>du kennst ihn nur flüchtig.</p>
+<p xml:id="subtitle726" begin="27668000000t" end="27698400000t" region="region0">-Ja. Eh.<br/>-Das hat aber nicht so ausgeschaut.</p>
+<p xml:id="subtitle727" begin="27699200000t" end="27731200000t" region="region0">-So ist es aber.<br/>-[Vogelzwitschern]</p>
+<p xml:id="subtitle728" begin="27752400000t" end="27780400000t" region="region0">Ah, da. Da ist er ja schon. [Lachen]</p>
+<p xml:id="subtitle729" begin="27781200000t" end="27809600000t" region="region0">[klingelnde Musik]</p>
+<p xml:id="subtitle730" begin="27820400000t" end="27849600000t" region="region0">[Hadrian] Boah! Rolls-Royce Silver Cloud,<br/>Baujahr '64.</p>
+<p xml:id="subtitle731" begin="27862400000t" end="27874000000t" region="region0">[Georg] Wer ist das?</p>
+<p xml:id="subtitle732" begin="27887600000t" end="27908400000t" region="region0">-Das ist mein Mann.<br/>-Dein Mann?</p>
+<p xml:id="subtitle733" begin="27909200000t" end="27938800000t" region="region0">Ja. Das ist der Maharadscha von Goa.</p>
+<p xml:id="subtitle734" begin="27939600000t" end="27974800000t" region="region0">Wir sind… seit zwei Jahren<br/>miteinander verheiratet</p>
+<p xml:id="subtitle735" begin="27986000000t" end="28000800000t" region="region0">und sehr glücklich miteinander.</p>
+<p xml:id="subtitle736" begin="28010800000t" end="28032400000t" region="region0">-Das ist dein Mann?<br/>-Mhm.</p>
+<p xml:id="subtitle737" begin="28033200000t" end="28058000000t" region="region0">Dann wundert's mich nicht,<br/>dass du auf das Erbe scheißt.</p>
+<p xml:id="subtitle738" begin="28059200000t" end="28099200000t" region="region0">Ihr könnts uns mal besuchen kommen.<br/>Wir haben Gästepaläste.</p>
+<p xml:id="subtitle739" begin="28100000000t" end="28144400000t" region="region0">Hast du nicht gesagt,<br/>sie hat eine kleine Konditorei?</p>
+<p xml:id="subtitle740" begin="28146800000t" end="28168800000t" region="region0">Im Palast. Für den Hofstaat.</p>
+<p xml:id="subtitle741" begin="28169600000t" end="28200000000t" region="region0">Und für die anderen 200 Filialen<br/>hab ich Franchise-Partner.</p>
+<p xml:id="subtitle742" begin="28200800000t" end="28223200000t" region="region0">Man will ja auch<br/>Zeit für den Maharadscha haben.</p>
+<p xml:id="subtitle743" begin="28234000000t" end="28260000000t" region="region0">-Wieso hast du nix gesagt?<br/>-Na, waaßt eh!</p>
+<p xml:id="subtitle744" begin="28285600000t" end="28299600000t" region="region0">[bewegte Musik]</p>
+<p xml:id="subtitle745" begin="28306000000t" end="28318000000t" region="region0">[Sie kichert]</p>
+<p xml:id="subtitle746" begin="28342800000t" end="28363600000t" region="region0">[ungläubiges Lachen, Autotür]</p>
+<p xml:id="subtitle747" begin="28435200000t" end="28454400000t" region="region1">[dynamische Musik]</p>
+</div>
+</body>
+</tt>

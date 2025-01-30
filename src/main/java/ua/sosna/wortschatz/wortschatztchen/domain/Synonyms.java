@@ -3,6 +3,7 @@ package ua.sosna.wortschatz.wortschatztchen.domain;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import java.io.Serializable;
+import java.time.Instant;
 import java.util.UUID;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
@@ -133,5 +134,11 @@ public class Synonyms implements Serializable {
             ", uuid='" + getUuid() + "'" +
             ", name='" + getName() + "'" +
             "}";
+    }
+    @PrePersist
+    public void PreSave() {
+    	if (this.uuid==null) {
+    		this.uuid = UUID.randomUUID();
+    	}
     }
 }
