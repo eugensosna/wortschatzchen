@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Synonyms</title>
+<title>Means</title>
 
 </head>
 
@@ -12,8 +12,8 @@
 <div th:insert="~{header :: navMenu}"></div>
 
 	<div class="container my-3">
-		<h1 class="text-center mb-3">Synonyms für <a th:href ="@{/words/edit(id = ${baseWord.id})}" th:text="${baseWord.name}"> </a></h1>
-		<a class="btn btn-primary" th:href="@{/synonyms/}+${baseWord.id}+'/create'">Create </a>
+		<h1 class="text-center mb-3">Means für <a th:href ="@{/words/edit(id = ${baseWord.id})}" th:text="${baseWord.name}"> </a></h1>
+		<a class="btn btn-primary" th:href="@{/means/}+${baseWord.id}+'/create'">Create </a>
 	</div>
 	<div class="container">
 		<table class="table table-bordered">
@@ -36,10 +36,10 @@
 					<td th:text="${item.baseLang}"></td>
 					
 					<td >
-					<a class = "btn btn-primary btn-sm" th:href="@{/synonyms/edit(id = ${item.id})}">Edit</a> 
-					<a class = "btn btn-danger btn-sm" th:href="@{/synonyms/delete(id = ${item.id})}"
+					<a class = "btn btn-primary btn-sm" th:href="@{/means/edit(id = ${item.id})}">Edit</a> 
+					<a class = "btn btn-danger btn-sm" th:href="@{/means/delete(id = ${item.id})}"
 					onclick="return confirm('Are you sure?')" >Delete</a>
-					<!-- <a class = "btn btn-danger btn-sm" th:href="@{synonyms/(wordId = ${item.id})}">Synonyms</a> -->
+					<!-- <a class = "btn btn-danger btn-sm" th:href="@{means/(wordId = ${item.id})}">Means</a> -->
 					</td>
 			</tbody>
 

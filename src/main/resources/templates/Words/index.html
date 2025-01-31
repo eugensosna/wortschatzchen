@@ -40,7 +40,9 @@
 					<a class = "btn btn-primary btn-sm" th:href="@{words/edit(id = ${item.id})}">Edit</a> 
 					<a class = "btn btn-danger btn-sm" th:href="@{words/delete(id = ${item.id})}"
 					onclick="return confirm('Are you sure?')" >Delete</a>
-					<a class = "btn btn-danger btn-sm" th:href="@{synonyms/}+${item.id}">Synonyms</a>
+					<a class = "btn btn-info btn-sm" th:href="@{synonyms/}+${item.id}">Synonyms</a>
+					<a class = "btn btn-info btn-sm" th:href="@{means/}+${item.id}">Means</a>
+					<a class = "btn btn-info btn-sm" th:href="@{examples/}+${item.id}">Examples</a>
 					</td>
 			</tbody>
 

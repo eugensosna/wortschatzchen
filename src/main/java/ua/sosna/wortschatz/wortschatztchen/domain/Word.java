@@ -49,8 +49,42 @@ public class Word implements Serializable {
     @JsonIgnoreProperties(value = { "baseLang", "baseWord" }, allowSetters = true)
     private Set<Synonyms> synonyms = new HashSet<>();
     
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "baseWord")
+    @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
+    @JsonIgnoreProperties(value = { "baseLang", "baseWord" }, allowSetters = true)
+    private Set<Means> means = new HashSet<>();
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "baseWord")
+    @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
+    @JsonIgnoreProperties(value = { "baseLang", "baseWord" }, allowSetters = true)
+    private Set<Example> examples = new HashSet<>();
+
+    public Set<Example> getExamples() {
+		return examples;
+	}
+
+	public void setExamples(Set<Example> examples) {
+		this.examples = examples;
+	}
+
+	public String getMainMean() {
+		return mainMean;
+	}
+
+	public void setMainMean(String mainMean) {
+		this.mainMean = mainMean;
+	}
+
+	public Set<Means> getMeans() {
+		return means;
+	}
+
+	public void setMeans(Set<Means> means) {
+		this.means = means;
+	}
+
+	@ManyToOne(fetch = FetchType.LAZY)
     @JsonIgnoreProperties(value = { "subtitleFiles", "words", "synonyms" }, allowSetters = true)
     private Language baseLang;
 
@@ -223,5 +257,12 @@ public class Word implements Serializable {
             ", baseForm='" + getBaseForm() + "'" +
             ", kindOfWord='" + getKindOfWord() + "'" +
             "}";
+    }
+    
+    @PrePersist
+    public void PreSave() {
+    	if (this.uuid==null) {
+    		this.uuid = UUID.randomUUID();
+    	}
     }
 }

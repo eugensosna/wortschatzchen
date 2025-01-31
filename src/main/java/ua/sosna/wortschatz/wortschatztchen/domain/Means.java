@@ -6,6 +6,8 @@ import java.util.UUID;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  * A Mean.
  */
@@ -13,9 +15,11 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 @Table(name = "mean")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 //@SuppressWarnings("common-java:DuplicatedBlocks")
-public class Mean implements Serializable {
-
+public class Means implements Serializable {
     private static final long serialVersionUID = 1L;
+
+
+//    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequenceGenerator")
@@ -31,14 +35,40 @@ public class Mean implements Serializable {
 
     @Column(name = "order")
     private Integer order;
+    
+    @ManyToOne(fetch = FetchType.LAZY)
+    //@JoinColumn()
+    @JsonIgnoreProperties(value = { "subtitleFiles", "words", "synonyms", "means"}, allowSetters = true)
+    private Language baseLang;
+    
+    @ManyToOne(fetch = FetchType.LAZY )
+    @JsonIgnoreProperties(value = { "synonyms", "baseLang", "means" }, allowSetters = true)
+    private Word baseWord;
+
 
     // jhipster-needle-entity-add-field - JHipster will add fields here
 
-    public Long getId() {
+    public Language getBaseLang() {
+		return baseLang;
+	}
+
+	public void setBaseLang(Language baseLang) {
+		this.baseLang = baseLang;
+	}
+
+	public Word getBaseWord() {
+		return baseWord;
+	}
+
+	public void setBaseWord(Word baseWord) {
+		this.baseWord = baseWord;
+	}
+
+	public Long getId() {
         return this.id;
     }
 
-    public Mean id(Long id) {
+    public Means id(Long id) {
         this.setId(id);
         return this;
     }
@@ -51,7 +81,7 @@ public class Mean implements Serializable {
         return this.uuid;
     }
 
-    public Mean uuid(UUID uuid) {
+    public Means uuid(UUID uuid) {
         this.setUuid(uuid);
         return this;
     }
@@ -64,7 +94,7 @@ public class Mean implements Serializable {
         return this.name;
     }
 
-    public Mean name(String name) {
+    public Means name(String name) {
         this.setName(name);
         return this;
     }
@@ -77,7 +107,7 @@ public class Mean implements Serializable {
         return this.order;
     }
 
-    public Mean order(Integer order) {
+    public Means order(Integer order) {
         this.setOrder(order);
         return this;
     }
@@ -93,10 +123,10 @@ public class Mean implements Serializable {
         if (this == o) {
             return true;
         }
-        if (!(o instanceof Mean)) {
+        if (!(o instanceof Means)) {
             return false;
         }
-        return getId() != null && getId().equals(((Mean) o).getId());
+        return getId() != null && getId().equals(((Means) o).getId());
     }
 
     @Override

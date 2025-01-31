@@ -45,7 +45,7 @@ public class WordMvc {
 	}
 
 	@GetMapping({ "/edit" })
-	public String createItem(@RequestParam(name = "id", required = false) Long id, Model model) throws Exception {
+	public String editItem(@RequestParam(name = "id", required = false) Long id, Model model) throws Exception {
 		Word item;
 		if (id != null) {
 			Optional<Word> itemO = repo.findById(id);

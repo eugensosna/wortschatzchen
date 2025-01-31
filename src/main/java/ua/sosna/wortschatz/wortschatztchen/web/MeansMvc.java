@@ -13,21 +13,21 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import ua.sosna.wortschatz.wortschatztchen.domain.Synonyms;
+import ua.sosna.wortschatz.wortschatztchen.domain.Means;
 import ua.sosna.wortschatz.wortschatztchen.domain.Word;
-import ua.sosna.wortschatz.wortschatztchen.repository.SynonymsRepo;
+import ua.sosna.wortschatz.wortschatztchen.repository.MeansRepo;
 import ua.sosna.wortschatz.wortschatztchen.repository.WordRepo;
 import ua.sosna.wortschatz.wortschatztchen.utils.EditMode;
 
 @Controller
-@RequestMapping("/synonyms")
-public class SynonymsMvc {
+@RequestMapping("/means")
+public class MeansMvc {
 
-	private final SynonymsRepo repo;
+	private final MeansRepo repo;
 	private final WordRepo repoWord;
-	static private final String URL_SUFFIX = "Synonyms";
+	static private final String URL_SUFFIX = "Means";
 
-	public SynonymsMvc(SynonymsRepo repo, WordRepo repoWord) {
+	public MeansMvc(MeansRepo repo, WordRepo repoWord) {
 		super();
 		this.repo = repo;
 		this.repoWord = repoWord;
@@ -35,7 +35,7 @@ public class SynonymsMvc {
 
 	@GetMapping({ "/{wordId}/", "{wordId}" })
 	public String showItemsList(@PathVariable("wordId") Long wordId, Model model) {
-		List<Synonyms> list;
+		List<Means> list;
 		Word baseWord = null;
 
 		if (wordId != null) {
@@ -52,7 +52,7 @@ public class SynonymsMvc {
 
 	@GetMapping({ "/{wordId}/create" })
 	public String createItem(@PathVariable("wordId") Long wordId, Model model) {
-		Synonyms item = new Synonyms();
+		Means item = new Means();
 		if (model.containsAttribute("baseWord")) {
 			Word baseWord = (Word) model.getAttribute("baseWord");
 			model.addAttribute("baseWord", baseWord);
@@ -72,16 +72,12 @@ public class SynonymsMvc {
 	@GetMapping({ "/edit" })
 	public String editItem(@RequestParam(name = "id", required = false) Long id,
 			Model model) throws Exception {
-		Synonyms item;
-		
-		item = repo.findById(id).orElseThrow(RuntimeException::new);
-		
-		Word baseWord = (Word) Hibernate.unproxy(item.getBaseWord());
-		
-		
-		
+		Means item;
 
-		
+		item = repo.findById(id).orElseThrow(RuntimeException::new);
+
+		Word baseWord = (Word) Hibernate.unproxy(item.getBaseWord());
+
 		model.addAttribute("baseWord", baseWord);
 		model.addAttribute("editMode", EditMode.UPDATE);
 		model.addAttribute("item", item);
@@ -89,20 +85,18 @@ public class SynonymsMvc {
 
 	}
 
-	//@PostMapping("/save")
+	// @PostMapping("/save")
 	@PostMapping("/{wordId}/save")
-	public String save(@PathVariable("wordId") Long wordId, @ModelAttribute Synonyms item, Model model) {
+	public String save(@PathVariable("wordId") Long wordId, @ModelAttribute Means item, Model model) {
 		return saveUpdate(wordId, item, model);
 	}
-	
-	
+
 	@PostMapping("/save")
-	public String save( @ModelAttribute Synonyms item, Model model) {
+	public String save(@ModelAttribute Means item, Model model) {
 		return saveUpdate(null, item, model);
 	}
-	
 
-	public String saveUpdate(Long wordId, @ModelAttribute Synonyms item, Model model) {
+	public String saveUpdate(Long wordId, @ModelAttribute Means item, Model model) {
 
 		Word baseWord;
 
@@ -118,44 +112,37 @@ public class SynonymsMvc {
 			 * }
 			 */
 
-		} else if (item.getId()==null && wordId>0) {
-			baseWord =repoWord.findById(wordId).orElseThrow(RuntimeException::new);
+		} else if (item.getId() == null && wordId > 0) {
+			baseWord = repoWord.findById(wordId).orElseThrow(RuntimeException::new);
 			item.setBaseWord(baseWord);
-			
-			
-		}
-		else {
+
+		} else {
 			var refreshedItem = repo.findById(item.getId()).orElseThrow(RuntimeException::new);
 			baseWord = (Word) Hibernate.unproxy(refreshedItem.getBaseWord());
 			item.setBaseWord(baseWord);
 		}
-		
-		
-		//model.addAttribute("baseWord", item.getBaseWord());
+
+		// model.addAttribute("baseWord", item.getBaseWord());
 
 		var savedItem = repo.save(item);
 		// if(editMode == EditMode.CREATE) {
 		model.addAttribute("currentID", savedItem.getId());
-		//return "redirect:/words";
-		String redirect = "redirect:/synonyms/"+ baseWord.getId() ;
+		// return "redirect:/words";
+		String redirect = "redirect:/means/" + baseWord.getId();
 		System.out.println(redirect);
 		return redirect;
 
 	}
 
-	
-	
-	
 	@GetMapping("/delete")
 	public String deleteItem(@RequestParam(name = "id", required = true) Long id, Model model) {
 		// Long id = Long.parseUnsignedLong(idString);
 		var itemToDelete = repo.findById(id).orElseThrow(RuntimeException::new);
 		var baseWord = itemToDelete.getBaseWord();
-		
+
 		repo.deleteById(id);
 
-		return "redirect:/synonyms/" + baseWord.getId();
-		
+		return "redirect:/means/" + baseWord.getId();
 
 	}
 
