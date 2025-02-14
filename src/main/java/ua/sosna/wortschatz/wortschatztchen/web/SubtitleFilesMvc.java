@@ -21,6 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.core.io.Resource;
 import ua.sosna.wortschatz.wortschatztchen.domain.SubtitleFile;
 import ua.sosna.wortschatz.wortschatztchen.dto.SubtitleFilesDto;
+import ua.sosna.wortschatz.wortschatztchen.repository.FileRepo;
 import ua.sosna.wortschatz.wortschatztchen.repository.SubtitleFileRepo;
 import ua.sosna.wortschatz.wortschatztchen.storage.StorageService;
 import ua.sosna.wortschatz.wortschatztchen.utils.EditMode;
@@ -31,13 +32,15 @@ public class SubtitleFilesMvc {
 
 	private final SubtitleFileRepo repo;
 	private final StorageService storageService;
+	private FileRepo fileRepo;
 
 	static private final String URL_SUFFIX = "subtitlefiles";
 
-	public SubtitleFilesMvc(SubtitleFileRepo repo, StorageService storageService) {
+	public SubtitleFilesMvc(SubtitleFileRepo repo, StorageService storageService, FileRepo fileRepo) {
 		super();
 		this.repo = repo;
 		this.storageService = storageService;
+		this.fileRepo = fileRepo;
 	}
 
 	@GetMapping({ "/", "" })
@@ -50,7 +53,7 @@ public class SubtitleFilesMvc {
 
 	@GetMapping({ "/create" })
 	public String createItem(Model model) {
-		var item = new SubtitleFilesDto(repo, storageService);
+		var item = new SubtitleFilesDto(repo, storageService, fileRepo);
 		model.addAttribute("editMode", EditMode.CREATE);
 		model.addAttribute("item", item);
 		return URL_SUFFIX + "/edit";
@@ -60,9 +63,9 @@ public class SubtitleFilesMvc {
 	@GetMapping("/file")
 	@ResponseBody
 	public ResponseEntity<Resource> serveFileById(@RequestParam(name = "id", required = true) Long id) {
-		var item = repo.findById(id).orElseThrow(RuntimeException::new);
+		var item = this.fileRepo.findById(id).orElseThrow(RuntimeException::new);
 
-		Resource file = this.storageService.loadAsResource(item.getFilename());
+		Resource file = this.storageService.loadAsResource(item.getFileName());
 
 		if (file == null)
 			return ResponseEntity.notFound().build();
@@ -97,7 +100,7 @@ public class SubtitleFilesMvc {
 			mode = EditMode.UPDATE;
 
 		} else {
-			item = new SubtitleFilesDto(repo, storageService);
+			item = new SubtitleFilesDto(repo, storageService, fileRepo);
 			mode = EditMode.CREATE;
 
 		}

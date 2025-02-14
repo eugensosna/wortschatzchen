@@ -10,7 +10,9 @@ import java.security.NoSuchAlgorithmException;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
+import ua.sosna.wortschatz.wortschatztchen.domain.File;
 import ua.sosna.wortschatz.wortschatztchen.domain.SubtitleFile;
+import ua.sosna.wortschatz.wortschatztchen.repository.FileRepo;
 import ua.sosna.wortschatz.wortschatztchen.repository.SubtitleFileRepo;
 import ua.sosna.wortschatz.wortschatztchen.storage.StorageService;
 
@@ -20,6 +22,7 @@ public class SubtitleFilesDto implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private SubtitleFileRepo repo;
 	private StorageService storageService;
+	private FileRepo fileRepo;
 
 	public SubtitleFileRepo getRepo() {
 		return repo;
@@ -83,10 +86,11 @@ public class SubtitleFilesDto implements Serializable {
 		this.file = file;
 	}
 
-	public SubtitleFilesDto(SubtitleFileRepo repo, StorageService storageService) {
+	public SubtitleFilesDto(SubtitleFileRepo repo, StorageService storageService, FileRepo fileRepo) {
 		super();
 		this.storageService = storageService;
 		this.repo = repo;
+		this.fileRepo = fileRepo;
 	}
 
 	public SubtitleFilesDto() {
@@ -102,25 +106,29 @@ public class SubtitleFilesDto implements Serializable {
 		if (file != null) {
 			Path destanationFile = storageService.store(file);
 
-			item.setFilename(destanationFile.getFileName().toString());
-			item.setExtension(storageService.getExtension(file.getOriginalFilename()));
-			item.setContentType(file.getContentType());
-			item.setOriginalFilename(file.getOriginalFilename());
-			item.setSizeInBytes((int) file.getSize());
+			File fileDBO = new File();
+
+			// file.setFileName(name);
+
+			fileDBO.setFileName(destanationFile.getFileName().toString());
+			fileDBO.setExtension(storageService.getExtension(file.getOriginalFilename()));
+			fileDBO.setContentType(fileDBO.getContentType());
+			fileDBO.setOriginalFilename(file.getOriginalFilename());
+			fileDBO.setSize(file.getSize());
 			String sha = destanationFile.getFileName().toString();
 			try {
 				var mSha = MessageDigest.getInstance("SHA-256");
 
 				var di = new DigestInputStream(file.getInputStream(), mSha);
 				MessageDigest str = di.getMessageDigest();
-				sha  = str.toString();
+				sha = str.toString();
 
 			} catch (NoSuchAlgorithmException | IOException | RuntimeException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				// throw new NoSuchAlgorithmException(e);
 			}
-			item.setSha256(sha);
+			fileDBO.setSha256(sha);
 
 		}
 		item.setName(getName());
