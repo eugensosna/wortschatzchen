@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SubtitleFiles</title>
+<title>Subtitlerows</title>
 
 </head>
 
@@ -12,20 +12,17 @@
 <div th:insert="~{header :: navMenu}"></div>
 
 	<div class="container my-3">
-		<h1 class="text-center mb-3">SubtitleFiles</h1>
-		<a class="btn btn-primary" href="/subtitlefiles/create">Create </a>
+		<h1 class="text-center mb-3">Subtitlerows für <a th:href ="@{/subtitlefiles/edit(id = ${baseItem.id})}" th:text="${baseItem.name}"> </a></h1>
+		<a class="btn btn-primary" th:href="@{/subtitlerows/}+${baseItem.id}+'/create'">Create </a>
 	</div>
 	<div class="container">
 		<table class="table table-bordered">
 			<thead>
 				<tr>
 					<th scope="col">id</th>
-					<th scope="col">name</th>
-					<th scope="col">file</th>
-					
-					<!-- <th scope="col">important</th>
-					<th scope="col">baseForm</th>
-					<th scope="col">kindOfWord</th> -->
+					<th scope="col">startTime</th>
+					<th scope="col">endTime</th>
+					<th scope="col">text</th>
 					<th >Action</th>
 
 				</tr>
@@ -34,17 +31,15 @@
 			<tbody>
 				<tr th:each="item : ${items}">
 					<td th:text="${item.id}" scope="row"></td>
-					<td th:text="${item.name}"></td>
-					<td th:text="${item.file.getFileName()}"></td>
 					
+					<td th:text="${item.startTime}"></td>
+					<td th:text="${item.endTime}"></td>
+					<td th:text="${item.text}"></td>
 					<td >
-					<a class = "btn " th:href="@{'subtitlefiles/files/' + ${item.file.getOriginalFilename}}">View</a>
-					<a class = "btn btn-primary btn-sm" th:href="@{subtitlefiles/file(id = ${item.getFile().getId()})}">View</a>
-					
-					<a class = "btn btn-primary btn-sm" th:href="@{subtitlefiles/edit(id = ${item.id})}">Edit</a> 
-					<a class = "btn btn-danger btn-sm" th:href="@{subtitlefiles/delete(id = ${item.id})}"
+					<a class = "btn btn-primary btn-sm" th:href="@{/subtitlerows/edit(id = ${item.id})}">Edit</a> 
+					<a class = "btn btn-danger btn-sm" th:href="@{/subtitlerows/delete(id = ${item.id})}"
 					onclick="return confirm('Are you sure?')" >Delete</a>
-					<a class = "btn btn-info btn-sm" th:href="@{subtitlerows/}+${item.id}">SubtitleRows</a>
+					<!-- <a class = "btn btn-danger btn-sm" th:href="@{subtitlerows/(wordId = ${item.id})}">Examples</a> -->
 					</td>
 			</tbody>
 

@@ -24,6 +24,13 @@ public class SubtitleFilesDto implements Serializable {
 	private StorageService storageService;
 	private FileRepo fileRepo;
 
+	private Long id;
+
+	private String name;
+
+	private MultipartFile file;
+	private File fileDB;
+
 	public SubtitleFileRepo getRepo() {
 		return repo;
 	}
@@ -32,6 +39,16 @@ public class SubtitleFilesDto implements Serializable {
 		this.repo = repo;
 	}
 
+	public FileRepo getFileRepo() {
+		return fileRepo;
+	}
+
+	public void setFileRepo(FileRepo fileRepo) {
+		this.fileRepo = fileRepo;
+	}
+
+
+	
 	public StorageService getStorageService() {
 		return storageService;
 	}
@@ -39,10 +56,6 @@ public class SubtitleFilesDto implements Serializable {
 	public void setStorageService(StorageService storageService) {
 		this.storageService = storageService;
 	}
-
-	private Long id;
-	private String name;
-	private MultipartFile file;
 
 	public Long getId() {
 		return id;
@@ -97,24 +110,30 @@ public class SubtitleFilesDto implements Serializable {
 		super();
 	}
 
+	/**
+	 * @param fileDB
+	 */
+	public void setFileDB(File fileDB) {
+		this.fileDB = fileDB;
+	}
+
+	public File getFileDB() {
+		return fileDB;
+	}
+
 	public void save() throws IOException, NoSuchAlgorithmException, RuntimeException {
 		SubtitleFile item = new SubtitleFile();
+		File fileDBO;
 		if (id != null) {
 			item = repo.findById(id).orElseThrow(RuntimeException::new);
 		}
 
 		if (file != null) {
 			Path destanationFile = storageService.store(file);
-
-			File fileDBO = new File();
-
-			// file.setFileName(name);
-
-			fileDBO.setFileName(destanationFile.getFileName().toString());
-			fileDBO.setExtension(storageService.getExtension(file.getOriginalFilename()));
-			fileDBO.setContentType(fileDBO.getContentType());
-			fileDBO.setOriginalFilename(file.getOriginalFilename());
-			fileDBO.setSize(file.getSize());
+			fileDBO = item.getFile();
+			if (fileDBO == null) {
+				fileDBO = new File();
+			}
 			String sha = destanationFile.getFileName().toString();
 			try {
 				var mSha = MessageDigest.getInstance("SHA-256");
@@ -128,7 +147,17 @@ public class SubtitleFilesDto implements Serializable {
 				e.printStackTrace();
 				// throw new NoSuchAlgorithmException(e);
 			}
+			fileDBO.setFileName(destanationFile.getFileName().toString());
+			fileDBO.setExtension(storageService.getExtension(file.getOriginalFilename()));
+			fileDBO.setContentType(fileDBO.getContentType());
+			fileDBO.setOriginalFilename(file.getOriginalFilename());
+			fileDBO.setSize(file.getSize());
+			
+			fileDBO.setContentType(file.getContentType());
+			fileDBO.setName(fileDBO.getOriginalFilename());
 			fileDBO.setSha256(sha);
+			fileDBO = fileRepo.save(fileDBO);
+			item.setFile(fileDBO);
 
 		}
 		item.setName(getName());
@@ -144,6 +173,8 @@ public class SubtitleFilesDto implements Serializable {
 		var result = new SubtitleFilesDto();
 		result.setId(id);
 		result.setName(item.getName());
+		result.setFileDB(item.getFile());
+
 		return result;
 
 	}

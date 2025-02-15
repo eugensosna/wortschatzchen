@@ -153,8 +153,15 @@ public class SubtitleFile implements Serializable {
 		// https://vladmihalcea.com/how-to-implement-equals-and-hashcode-using-the-jpa-entity-identifier/
 		return getClass().hashCode();
 	}
+	public void setFile(File fileDB) {
+		this.file = fileDB;
+	}
 
-	// prettier-ignore
+	public File getFile() {
+		return file;
+	}
+
+
 	@Override
 	public String toString() {
 		return "SubtitleFile{" + "id=" + getId() + "name=" + getName() + ", uploadDate='" + getUploadDate() + "'" + "}";

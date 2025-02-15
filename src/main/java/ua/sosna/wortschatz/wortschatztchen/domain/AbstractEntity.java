@@ -3,7 +3,6 @@ package ua.sosna.wortschatz.wortschatztchen.domain;
 import java.io.Serializable;
 import java.util.UUID;
 
-import org.checkerframework.common.aliasing.qual.Unique;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
@@ -25,7 +24,6 @@ public class AbstractEntity  implements Serializable{
 	private Long id;
 	
 	 @Column(name = "uuid")
-	 @Unique
 	 private UUID uuid;
 
 	public UUID getUuid() {

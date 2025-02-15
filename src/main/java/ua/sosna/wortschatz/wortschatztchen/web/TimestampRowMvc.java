@@ -118,7 +118,7 @@ public class TimestampRowMvc {
 			baseItem = repoBase.findById(baseId).orElseThrow(RuntimeException::new);
 			item.setSubtitleFile(baseItem);
 
-		} else {
+		} else if (item.getId()!=null) {
 			var refreshedItem = repo.findById(item.getId()).orElseThrow(RuntimeException::new);
 			baseItem = (SubtitleFile) Hibernate.unproxy(refreshedItem.getSubtitleFile());
 			item.setSubtitleFile(baseItem);
@@ -127,10 +127,11 @@ public class TimestampRowMvc {
 		// model.addAttribute("baseItem", item.getBaseWord());
 
 		var savedItem = repo.save(item);
+		baseItem = (SubtitleFile) Hibernate.unproxy(savedItem.getSubtitleFile());
 		// if(editMode == EditMode.CREATE) {
 		model.addAttribute("currentID", savedItem.getId());
 		// return "redirect:/words";
-		String redirect = "redirect:/means/" + baseItem.getId();
+		String redirect = "redirect:/subtitlerows/"+baseItem.getId()+"/";
 		System.out.println(redirect);
 		return redirect;
 
@@ -140,11 +141,11 @@ public class TimestampRowMvc {
 	public String deleteItem(@RequestParam(name = "id", required = true) Long id, Model model) {
 		// Long id = Long.parseUnsignedLong(idString);
 		TimestampRow itemToDelete = repo.findById(id).orElseThrow(RuntimeException::new);
-		var baseItem = itemToDelete.getSubtitleFile();
+		var baseItem = (SubtitleFile) Hibernate.unproxy(itemToDelete.getSubtitleFile());
 
 		repo.deleteById(id);
 
-		return "redirect:/means/" + baseItem.getId();
+		return "redirect:/subtitlerows/" + baseItem.getId()+"/";
 
 	}
 
