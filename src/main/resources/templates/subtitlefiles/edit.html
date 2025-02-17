@@ -24,6 +24,10 @@
 					class="form-control" th:field="${item.important}"> <label>kindOfWord</label><input
 					class="form-control" th:field="${item.kindOfWord}"> <label>baseForm</label><input
 					class="form-control" th:field="${item.baseForm}"> -->
+					<select class="form-control" id="dropDownList" th:field="*{baseLang}">
+					<option th:each="element : ${languages}" th:value="${element.getId()}" th:text="${element}">
+    				</select>
+					
 
 
 				<div class="row mb-5">

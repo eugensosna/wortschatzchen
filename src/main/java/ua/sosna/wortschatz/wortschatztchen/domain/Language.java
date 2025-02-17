@@ -36,11 +36,11 @@ public class Language implements Serializable {
     private UUID uuid;
 
 	
-	  @OneToMany(fetch = FetchType.LAZY, mappedBy = "language")
+	  @OneToMany(fetch = FetchType.LAZY, mappedBy = "baseLang")
 	  
 	  @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 	  
-	  @JsonIgnoreProperties(value = { "timestampRows", "language" }, allowSetters =
+	  @JsonIgnoreProperties(value = { "timestampRows", "baseLang" }, allowSetters =
 	  true) private Set<SubtitleFile> subtitleFiles = new HashSet<>();
 	 
 
@@ -115,10 +115,10 @@ public class Language implements Serializable {
 
     public void setSubtitleFiles(Set<SubtitleFile> subtitleFiles) {
         if (this.subtitleFiles != null) {
-            this.subtitleFiles.forEach(i -> i.setLanguage(null));
+            this.subtitleFiles.forEach(i -> i.setBaseLang(null));
         }
         if (subtitleFiles != null) {
-            subtitleFiles.forEach(i -> i.setLanguage(this));
+            subtitleFiles.forEach(i -> i.setBaseLang(this));
         }
         this.subtitleFiles = subtitleFiles;
     }
@@ -130,13 +130,13 @@ public class Language implements Serializable {
 
     public Language addSubtitleFile(SubtitleFile subtitleFile) {
         this.subtitleFiles.add(subtitleFile);
-        subtitleFile.setLanguage(this);
+        subtitleFile.setBaseLang(this);
         return this;
     }
 
     public Language removeSubtitleFile(SubtitleFile subtitleFile) {
         this.subtitleFiles.remove(subtitleFile);
-        subtitleFile.setLanguage(null);
+        subtitleFile.setBaseLang(null);
         return this;
     }
 

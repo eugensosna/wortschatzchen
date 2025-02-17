@@ -9,11 +9,40 @@
 </head>
 
 <body>
-<div th:insert="~{header :: navMenu}"></div>
+	<div th:insert="~{header :: navMenu}"></div>
 
 	<div class="container my-3">
-		<h1 class="text-center mb-3">Subtitlerows für <a th:href ="@{/subtitlefiles/edit(id = ${baseItem.id})}" th:text="${baseItem.name}"> </a></h1>
-		<a class="btn btn-primary" th:href="@{/subtitlerows/}+${baseItem.id}+'/create'">Create </a>
+		<h1 class="text-center mb-3">
+			Subtitlerows für <a
+				th:href="@{/subtitlefiles/edit(id = ${baseItem.id})}"
+				th:text="${baseItem.name}"> </a>
+		</h1>
+		<a class="btn btn-primary"
+			th:href="@{/subtitlerows/}+${baseItem.id}+'/create'">Create </a> <a
+			class="btn btn-primary"
+			th:href="@{/subtitlerows/}+${baseItem.id}">Parse
+			file to Rows</a>
+		<form method="post" action="translaterows"
+			th:object="${translateSubtitleRowsDto}">
+			<label>ID</label> <input readonly class="form-control"
+				name="baseItemId" th:field="${baseItem.id}"> 
+			<select class="form-control" id="dropDownList"
+				th:field="*{baseLangId}">
+				<option th:each="element : ${languages}"
+					th:value="${element.getId()}" th:text="${element.getShortName()}">
+			</select> <select class="form-control" id="dropDownList"
+				th:field="*{targetLangId}">
+				<option th:each="element : ${languages}"
+					th:value="${element.getId()}" th:text="${element.getShortName()}">
+			</select>
+			<button class="btn btn-primary" type="submit">Submit</button>
+		</form>
+
+		<!-- <form method="post" enctype="multipart/form-data"
+			th:action="@{/subtitlerows/}+${baseItem.id}+'/parsesubtitels" >
+			<button class="btn btn-primary" type="submit">Parse file to
+				Rows</button>
+		 </form>-->
 	</div>
 	<div class="container">
 		<table class="table table-bordered">
@@ -23,7 +52,7 @@
 					<th scope="col">startTime</th>
 					<th scope="col">endTime</th>
 					<th scope="col">text</th>
-					<th >Action</th>
+					<th>Action</th>
 
 				</tr>
 
@@ -31,15 +60,15 @@
 			<tbody>
 				<tr th:each="item : ${items}">
 					<td th:text="${item.id}" scope="row"></td>
-					
+
 					<td th:text="${item.startTime}"></td>
 					<td th:text="${item.endTime}"></td>
 					<td th:text="${item.text}"></td>
-					<td >
-					<a class = "btn btn-primary btn-sm" th:href="@{/subtitlerows/edit(id = ${item.id})}">Edit</a> 
-					<a class = "btn btn-danger btn-sm" th:href="@{/subtitlerows/delete(id = ${item.id})}"
-					onclick="return confirm('Are you sure?')" >Delete</a>
-					<!-- <a class = "btn btn-danger btn-sm" th:href="@{subtitlerows/(wordId = ${item.id})}">Examples</a> -->
+					<td><a class="btn btn-primary btn-sm"
+						th:href="@{/subtitlerows/edit(id = ${item.id})}">Edit</a> <a
+						class="btn btn-danger btn-sm"
+						th:href="@{/subtitlerows/delete(id = ${item.id})}"
+						onclick="return confirm('Are you sure?')">Delete</a> <!-- <a class = "btn btn-danger btn-sm" th:href="@{subtitlerows/(wordId = ${item.id})}">Examples</a> -->
 					</td>
 			</tbody>
 
@@ -54,7 +83,7 @@
 	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> -->
 
-<div th:insert="~{header :: bootstrap}"></div>
+	<div th:insert="~{header :: bootstrap}"></div>
 </body>
 
 </html>

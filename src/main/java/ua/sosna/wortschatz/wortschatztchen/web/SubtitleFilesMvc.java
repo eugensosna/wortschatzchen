@@ -22,11 +22,14 @@ import org.springframework.web.servlet.view.RedirectView;
 
 import jakarta.servlet.http.HttpServletResponse;
 import ua.sosna.wortschatz.wortschatztchen.domain.File;
+import ua.sosna.wortschatz.wortschatztchen.domain.Language;
 import ua.sosna.wortschatz.wortschatztchen.domain.SubtitleFile;
 import ua.sosna.wortschatz.wortschatztchen.dto.SubtitleFilesDto;
 import ua.sosna.wortschatz.wortschatztchen.dto.UploadFileResponse;
 import ua.sosna.wortschatz.wortschatztchen.repository.FileRepo;
+import ua.sosna.wortschatz.wortschatztchen.repository.LanguageRepo;
 import ua.sosna.wortschatz.wortschatztchen.repository.SubtitleFileRepo;
+import ua.sosna.wortschatz.wortschatztchen.service.SubtitelFilesService;
 import ua.sosna.wortschatz.wortschatztchen.storage.StorageService;
 import ua.sosna.wortschatz.wortschatztchen.utils.EditMode;
 
@@ -37,13 +40,15 @@ public class SubtitleFilesMvc {
 	private final SubtitleFileRepo repo;
 	private final StorageService storageService;
 	private FileRepo fileRepo;
+	private SubtitelFilesService subtitleFilesService;
 
 	static private final String URL_SUFFIX = "subtitlefiles";
 
-	public SubtitleFilesMvc(SubtitleFileRepo repo, StorageService storageService, FileRepo fileRepo) {
+	public SubtitleFilesMvc(SubtitleFileRepo repo, StorageService storageService, FileRepo fileRepo, SubtitelFilesService subtitleFilesService) {
 		super();
 		this.repo = repo;
 		this.storageService = storageService;
+		this.subtitleFilesService= subtitleFilesService;
 		this.fileRepo = fileRepo;
 	}
 
@@ -58,8 +63,12 @@ public class SubtitleFilesMvc {
 	@GetMapping({ "/create" })
 	public String createItem(Model model) {
 		var item = new SubtitleFilesDto(repo, storageService, fileRepo);
+		List<Language> languages = subtitleFilesService.getLanguageRepo().findAll();
 		model.addAttribute("editMode", EditMode.CREATE);
 		model.addAttribute("item", item);
+		model.addAttribute("languages", languages);
+		
+		
 		return URL_SUFFIX + "/edit";
 
 	}
@@ -121,18 +130,22 @@ public class SubtitleFilesMvc {
 			mode = EditMode.CREATE;
 
 		}
+		List<Language> languages = subtitleFilesService.getLanguageRepo().findAll();
 
 		model.addAttribute("editMode", mode);
 		model.addAttribute("item", item);
+		model.addAttribute("languages", languages);
 		return URL_SUFFIX + "/edit";
 
 	}
-
+	
+	
 	@PostMapping("/save")
 	public String saveUpdate(@ModelAttribute SubtitleFilesDto item, Model model) {
 		item.setRepo(this.repo);
 		item.setStorageService(storageService);
 		item.setFileRepo(fileRepo);
+		item.setSubtitelFilesService(subtitleFilesService);
 
 		try {
 			item.save();

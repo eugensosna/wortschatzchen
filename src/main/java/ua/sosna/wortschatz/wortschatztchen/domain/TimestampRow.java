@@ -1,9 +1,10 @@
 package ua.sosna.wortschatz.wortschatztchen.domain;
 
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import java.io.Serializable;
+import java.util.UUID;
+
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
@@ -16,155 +17,169 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 //@SuppressWarnings("common-java:DuplicatedBlocks")
 public class TimestampRow implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequenceGenerator")
-    @SequenceGenerator(name = "sequenceGenerator")
-    @Column(name = "id")
-    private Long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequenceGenerator")
+	@SequenceGenerator(name = "sequenceGenerator")
+	@Column(name = "id")
+	private Long id;
 
-    @Column(name = "start_time")
-    private String startTime;
+	@Column(name = "uuid")
+	private UUID uuid;
 
-    @Column(name = "text")
-    private String text;
+	@Column(name = "start_time")
+	private String startTime;
 
-    @Column(name = "end_time")
-    private String endTime;
+	@Column(name = "text")
+	private String text;
 
-    @Column(name = "time_in")
-    private Long timeIn;
+	@Column(name = "end_time")
+	private String endTime;
 
-    @Column(name = "time_out")
-    private Long timeOut;
+	@Column(name = "time_in")
+	private Long timeIn;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JsonIgnoreProperties(value = { "timestampRows", "language" }, allowSetters = true)
-    private SubtitleFile subtitleFile;
+	@Column(name = "time_out")
+	private Long timeOut;
 
-    // jhipster-needle-entity-add-field - JHipster will add fields here
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JsonIgnoreProperties(value = { "timestampRows", "language" }, allowSetters = true)
+	private SubtitleFile subtitleFile;
 
-    public Long getId() {
-        return this.id;
-    }
+	// jhipster-needle-entity-add-field - JHipster will add fields here
 
-    public TimestampRow id(Long id) {
-        this.setId(id);
-        return this;
-    }
+	public Long getId() {
+		return this.id;
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	public TimestampRow id(Long id) {
+		this.setId(id);
+		return this;
+	}
 
-    public String getStartTime() {
-        return this.startTime;
-    }
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    public TimestampRow startTime(String startTime) {
-        this.setStartTime(startTime);
-        return this;
-    }
+	public String getStartTime() {
+		return this.startTime;
+	}
 
-    public void setStartTime(String startTime) {
-        this.startTime = startTime;
-    }
+	public TimestampRow startTime(String startTime) {
+		this.setStartTime(startTime);
+		return this;
+	}
 
-    public String getText() {
-        return this.text;
-    }
+	public void setStartTime(String startTime) {
+		this.startTime = startTime;
+	}
 
-    public TimestampRow text(String text) {
-        this.setText(text);
-        return this;
-    }
+	public String getText() {
+		return this.text;
+	}
 
-    public void setText(String text) {
-        this.text = text;
-    }
+	public TimestampRow text(String text) {
+		this.setText(text);
+		return this;
+	}
 
-    public String getEndTime() {
-        return this.endTime;
-    }
+	public void setText(String text) {
+		this.text = text;
+	}
 
-    public TimestampRow endTime(String endTime) {
-        this.setEndTime(endTime);
-        return this;
-    }
+	public String getEndTime() {
+		return this.endTime;
+	}
 
-    public void setEndTime(String endTime) {
-        this.endTime = endTime;
-    }
+	public TimestampRow endTime(String endTime) {
+		this.setEndTime(endTime);
+		return this;
+	}
 
-    public Long getTimeIn() {
-        return this.timeIn;
-    }
+	public void setEndTime(String endTime) {
+		this.endTime = endTime;
+	}
 
-    public TimestampRow timeIn(Long timeIn) {
-        this.setTimeIn(timeIn);
-        return this;
-    }
+	public Long getTimeIn() {
+		return this.timeIn;
+	}
 
-    public void setTimeIn(Long timeIn) {
-        this.timeIn = timeIn;
-    }
+	public TimestampRow timeIn(Long timeIn) {
+		this.setTimeIn(timeIn);
+		return this;
+	}
 
-    public Long getTimeOut() {
-        return this.timeOut;
-    }
+	public void setTimeIn(Long timeIn) {
+		this.timeIn = timeIn;
+	}
 
-    public TimestampRow timeOut(Long timeOut) {
-        this.setTimeOut(timeOut);
-        return this;
-    }
+	public Long getTimeOut() {
+		return this.timeOut;
+	}
 
-    public void setTimeOut(Long timeOut) {
-        this.timeOut = timeOut;
-    }
+	public TimestampRow timeOut(Long timeOut) {
+		this.setTimeOut(timeOut);
+		return this;
+	}
 
-    public SubtitleFile getSubtitleFile() {
-        return this.subtitleFile;
-    }
+	public void setTimeOut(Long timeOut) {
+		this.timeOut = timeOut;
+	}
 
-    public void setSubtitleFile(SubtitleFile subtitleFile) {
-        this.subtitleFile = subtitleFile;
-    }
+	public SubtitleFile getSubtitleFile() {
+		return this.subtitleFile;
+	}
 
-    public TimestampRow subtitleFile(SubtitleFile subtitleFile) {
-        this.setSubtitleFile(subtitleFile);
-        return this;
-    }
+	public void setSubtitleFile(SubtitleFile subtitleFile) {
+		this.subtitleFile = subtitleFile;
+	}
 
-    // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
+	public TimestampRow subtitleFile(SubtitleFile subtitleFile) {
+		this.setSubtitleFile(subtitleFile);
+		return this;
+	}
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (!(o instanceof TimestampRow)) {
-            return false;
-        }
-        return getId() != null && getId().equals(((TimestampRow) o).getId());
-    }
+	// jhipster-needle-entity-add-getters-setters - JHipster will add getters and
+	// setters here
 
-    @Override
-    public int hashCode() {
-        // see https://vladmihalcea.com/how-to-implement-equals-and-hashcode-using-the-jpa-entity-identifier/
-        return getClass().hashCode();
-    }
+	public UUID getUuid() {
+		return uuid;
+	}
 
-    // prettier-ignore
-    @Override
-    public String toString() {
-        return "TimestampRow{" +
-            "id=" + getId() +
-            ", startTime='" + getStartTime() + "'" +
-            ", text1='" + getText() + "'" +
-            ", endTime='" + getEndTime() + "'" +
-            ", timeIn=" + getTimeIn() +
-            ", timeOut=" + getTimeOut() +
-            "}";
+	public void setUuid(UUID uuid) {
+		this.uuid = uuid;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) {
+			return true;
+		}
+		if (!(o instanceof TimestampRow)) {
+			return false;
+		}
+		return getId() != null && getId().equals(((TimestampRow) o).getId());
+	}
+
+	@Override
+	public int hashCode() {
+		// see
+		// https://vladmihalcea.com/how-to-implement-equals-and-hashcode-using-the-jpa-entity-identifier/
+		return getClass().hashCode();
+	}
+
+	// prettier-ignore
+	@Override
+	public String toString() {
+		return "TimestampRow{" + "id=" + getId() + ", startTime='" + getStartTime() + "'" + ", text1='" + getText()
+				+ "'" + ", endTime='" + getEndTime() + "'" + ", timeIn=" + getTimeIn() + ", timeOut=" + getTimeOut()
+				+ "}";
+	}
+    @PrePersist
+    public void PreSave() {
+    	if (this.uuid==null) {
+    		this.uuid = UUID.randomUUID();
+    	}
     }
 }

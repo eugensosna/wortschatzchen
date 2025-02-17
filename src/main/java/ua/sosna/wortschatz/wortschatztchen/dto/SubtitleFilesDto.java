@@ -11,9 +11,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
 import ua.sosna.wortschatz.wortschatztchen.domain.File;
+import ua.sosna.wortschatz.wortschatztchen.domain.Language;
 import ua.sosna.wortschatz.wortschatztchen.domain.SubtitleFile;
 import ua.sosna.wortschatz.wortschatztchen.repository.FileRepo;
 import ua.sosna.wortschatz.wortschatztchen.repository.SubtitleFileRepo;
+import ua.sosna.wortschatz.wortschatztchen.service.SubtitelFilesService;
 import ua.sosna.wortschatz.wortschatztchen.storage.StorageService;
 
 @Component
@@ -23,6 +25,7 @@ public class SubtitleFilesDto implements Serializable {
 	private SubtitleFileRepo repo;
 	private StorageService storageService;
 	private FileRepo fileRepo;
+	private SubtitelFilesService subtitelFilesService;
 
 	private Long id;
 
@@ -30,6 +33,7 @@ public class SubtitleFilesDto implements Serializable {
 
 	private MultipartFile file;
 	private File fileDB;
+	private Long baseLang;
 
 	public SubtitleFileRepo getRepo() {
 		return repo;
@@ -81,6 +85,14 @@ public class SubtitleFilesDto implements Serializable {
 		this.file = file;
 	}
 
+	public Long getBaseLang() {
+		return baseLang;
+	}
+
+	public void setBaseLang(Long baseLang) {
+		this.baseLang = baseLang;
+	}
+
 	public SubtitleFilesDto(StorageService storageService, Long id, String name, MultipartFile file) {
 		super();
 		this.id = id;
@@ -127,13 +139,14 @@ public class SubtitleFilesDto implements Serializable {
 		if (id != null) {
 			item = repo.findById(id).orElseThrow(RuntimeException::new);
 		}
+		fileDBO = item.getFile();
+		if (fileDBO == null) {
+			fileDBO = new File();
+		}
 
-		if (file != null) {
+		if (file != null && file.getSize()>0) {
 			Path destanationFile = storageService.store(file);
-			fileDBO = item.getFile();
-			if (fileDBO == null) {
-				fileDBO = new File();
-			}
+			
 			String sha = destanationFile.getFileName().toString();
 			try {
 				var mSha = MessageDigest.getInstance("SHA-256");
@@ -157,8 +170,16 @@ public class SubtitleFilesDto implements Serializable {
 			fileDBO.setName(fileDBO.getOriginalFilename());
 			fileDBO.setSha256(sha);
 			fileDBO = fileRepo.save(fileDBO);
-			item.setFile(fileDBO);
+			
 
+		}
+		if (fileDBO.getId()>0) {
+		item.setFile(fileDBO);
+		}
+		Language language = getSubtitelFilesService().getLanguageRepo().findById(baseLang).get();
+		if (language!=null) {
+			item.setBaseLang(language);
+			
 		}
 		item.setName(getName());
 		var savedItem = repo.save(item);
@@ -177,6 +198,14 @@ public class SubtitleFilesDto implements Serializable {
 
 		return result;
 
+	}
+
+	public SubtitelFilesService getSubtitelFilesService() {
+		return subtitelFilesService;
+	}
+
+	public void setSubtitelFilesService(SubtitelFilesService subtitelFilesService) {
+		this.subtitelFilesService = subtitelFilesService;
 	}
 
 }

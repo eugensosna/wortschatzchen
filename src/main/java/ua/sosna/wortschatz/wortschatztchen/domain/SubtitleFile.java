@@ -55,7 +55,7 @@ public class SubtitleFile implements Serializable {
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JsonIgnoreProperties(value = { "subtitleFiles", "words", "synonyms" }, allowSetters = true)
-	private Language language;
+	private Language baseLang;
 
 	@OneToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "file_id")
@@ -120,16 +120,16 @@ public class SubtitleFile implements Serializable {
 		return this;
 	}
 
-	public Language getLanguage() {
-		return this.language;
+	public Language getBaseLang() {
+		return this.baseLang;
 	}
 
-	public void setLanguage(Language language) {
-		this.language = language;
+	public void setBaseLang(Language baseLang) {
+		this.baseLang = baseLang;
 	}
 
-	public SubtitleFile language(Language language) {
-		this.setLanguage(language);
+	public SubtitleFile baseLang(Language baseLang) {
+		this.setBaseLang(baseLang);
 		return this;
 	}
 

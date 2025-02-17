@@ -22,6 +22,7 @@ import ua.sosna.wortschatz.wortschatztchen.utils.EditMode;
 @RequestMapping("/examples")
 public class ExamplesMvc {
 
+	private static final String WORD_ID = "wordId";
 	private final ExamplesRepo repo;
 	private final WordRepo repoWord;
 	static private final String URL_SUFFIX = "Examples";
@@ -33,7 +34,7 @@ public class ExamplesMvc {
 	}
 
 	@GetMapping({ "/{wordId}/", "{wordId}" })
-	public String showItemsList(@PathVariable("wordId") Long wordId, Model model) {
+	public String showItemsList(@PathVariable(WORD_ID) Long wordId, Model model) {
 		List<Example> list;
 		Word baseWord = null;
 
@@ -50,7 +51,7 @@ public class ExamplesMvc {
 	}
 
 	@GetMapping({ "/{wordId}/create" })
-	public String createItem(@PathVariable("wordId") Long wordId, Model model) {
+	public String createItem(@PathVariable(WORD_ID) Long wordId, Model model) {
 		Example item = new Example();
 		if (model.containsAttribute("baseWord")) {
 			Word baseWord = (Word) model.getAttribute("baseWord");
@@ -86,7 +87,7 @@ public class ExamplesMvc {
 
 	// @PostMapping("/save")
 	@PostMapping("/{wordId}/save")
-	public String save(@PathVariable("wordId") Long wordId, @ModelAttribute Example item, Model model) {
+	public String save(@PathVariable(WORD_ID) Long wordId, @ModelAttribute Example item, Model model) {
 		return saveUpdate(wordId, item, model);
 	}
 

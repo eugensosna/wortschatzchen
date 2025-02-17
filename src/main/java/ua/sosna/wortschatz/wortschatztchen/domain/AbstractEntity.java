@@ -23,7 +23,7 @@ public class AbstractEntity  implements Serializable{
 	@SequenceGenerator(name = "idgenerator", initialValue = 1000)
 	private Long id;
 	
-	 @Column(name = "uuid")
+	 @Column(name = "uuid", unique = true)
 	 private UUID uuid;
 
 	public UUID getUuid() {
