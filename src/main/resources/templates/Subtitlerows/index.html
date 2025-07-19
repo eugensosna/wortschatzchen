@@ -20,29 +20,13 @@
 		<a class="btn btn-primary"
 			th:href="@{/subtitlerows/}+${baseItem.id}+'/create'">Create </a> <a
 			class="btn btn-primary"
-			th:href="@{/subtitlerows/}+${baseItem.id}">Parse
+			th:href="@{/subtitlerows/}+${baseItem.id}+'/parsesubtitels'">Parse
 			file to Rows</a>
-		<form method="post" action="translaterows"
-			th:object="${translateSubtitleRowsDto}">
-			<label>ID</label> <input readonly class="form-control"
-				name="baseItemId" th:field="${baseItem.id}"> 
-			<select class="form-control" id="dropDownList"
-				th:field="*{baseLangId}">
-				<option th:each="element : ${languages}"
-					th:value="${element.getId()}" th:text="${element.getShortName()}">
-			</select> <select class="form-control" id="dropDownList"
-				th:field="*{targetLangId}">
-				<option th:each="element : ${languages}"
-					th:value="${element.getId()}" th:text="${element.getShortName()}">
-			</select>
-			<button class="btn btn-primary" type="submit">Submit</button>
-		</form>
-
-		<!-- <form method="post" enctype="multipart/form-data"
-			th:action="@{/subtitlerows/}+${baseItem.id}+'/parsesubtitels" >
-			<button class="btn btn-primary" type="submit">Parse file to
-				Rows</button>
-		 </form>-->
+			
+			<a
+			class="btn btn-primary"
+			th:href="@{/subtitlerows/}+${baseItem.id}+'/translaterows'">Translate Rows</a>
+		
 	</div>
 	<div class="container">
 		<table class="table table-bordered">
@@ -65,6 +49,8 @@
 					<td th:text="${item.endTime}"></td>
 					<td th:text="${item.text}"></td>
 					<td><a class="btn btn-primary btn-sm"
+						th:href="@{/subtitlerows/view(id = ${item.id})}">View</a>
+					<a class="btn btn-primary btn-sm"
 						th:href="@{/subtitlerows/edit(id = ${item.id})}">Edit</a> <a
 						class="btn btn-danger btn-sm"
 						th:href="@{/subtitlerows/delete(id = ${item.id})}"

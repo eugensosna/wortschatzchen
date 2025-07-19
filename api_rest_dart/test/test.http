@@ -1,0 +1,30 @@
+GET http://0.0.0.0:8280/echo/echo?message=hello
+
+HTTP/1.1 200  - OK
+connection: close
+x-powered-by: Dart with package:shelf
+date: Mon, 03 Mar 2025 20:10:12 GMT
+content-length: 5
+x-frame-options: SAMEORIGIN
+content-type: text/plain; charset=utf-8
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+###
+POST http://0.0.0.0:8280/translate
+Content-Type: application/json
+
+{
+    "from": "de",
+    "to": "uk",
+    "text": "Hallo Welt"
+}
+
+HTTP/1.1 200  - OK
+connection: close
+x-powered-by: Dart with package:shelf
+date: Mon, 03 Mar 2025 20:10:13 GMT
+content-length: 22
+x-frame-options: SAMEORIGIN
+content-type: application/octet-stream; charset=utf-8
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff

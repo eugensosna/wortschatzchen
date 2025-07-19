@@ -1,0 +1,39 @@
+services:
+  app:
+    image: 'wortschatzchen_app:latest'
+    build:
+      context: .
+    container_name: wortschatzchen_app
+    ports:
+      - "58080:8080"
+    # depends_on:
+    #   - db
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
+      SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL}
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
+      SPRING_JPA_HIBERNATE_DDL_AUTO: "update"
+      # JAVA_OPTS: ${JAVA_OPTS:" -Dspring.profiles.active=prod "}
+  translate:
+    image: 'wortschatzchen_translate:latest'
+    build:
+      context: ./api_rest_dart
+    container_name: wortschatzchen_translate
+    ports:
+      - "8280:8280"
+
+  db:
+    image: 'mariadb'
+    container_name: mariadb
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_volume:/var/lib/mysql 
+    environment:
+      MARIADB_ROOT_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
+
+volumes:
+  mariadb_volume:
+
+ 

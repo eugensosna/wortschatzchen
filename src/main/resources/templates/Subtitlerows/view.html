@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SubtitleRows</title>
+
+</head>
+
+<body>
+	<div th:insert="~{header :: navMenu}"></div>
+	<div class="container mb-5">
+		<div class="col">
+			<h2 class="text-center mb-5">yyy</h2>
+			
+			<p th:text=${item.getText()}></p> <p
+				th:text="${item.startTime}"></p>
+			<p th:text="${item.endTime}"></p>
+
+			<a class="btn btn-outline-primary" th:href="${baseItem.id}">Cancel</a>
+
+
+
+			<a class="btn btn-primary"
+				th:href="@{/subtitlerows/translate(id = ${item.id})}">translate
+			</a>
+
+			<p th:text="${baseItem.id}">
+			<div class="table-responsive">
+				<table class="table">
+
+					<thead>
+						<tr>
+							<th scope="col">Lang</th>
+							<th scope="col">name</th>
+
+						</tr>
+
+					</thead>
+					<tbody>
+						<tr th:each="itemTrans : ${translatedRows}">
+						<td th:text="${itemTrans.getTargetLang()}"></td>
+						<td th:text = "${itemTrans.getTranslatedName()}"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div>
+				<nav aria-label="Pagination" th:if="${Next > 0|| Previos>0}">
+
+					<ul class="pagination justify-content-center">
+						<li class="page-item btn font-weight-bold" th:if= "${Previos>=0}")><a
+							th:href="@{/subtitlerows/view(id = ${Previos})}">Prev</a></li>
+						<li class="page-item btn font-weight-bold"><a
+							th:href="@{/subtitlerows/view(id = ${Next})}">Next</a></li>
+					</ul>
+			</div>
+
+
+
+			<div th:insert="~{header :: bootstrap}"></div>
+</body>
+
+</html>
